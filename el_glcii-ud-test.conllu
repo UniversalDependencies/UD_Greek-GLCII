@@ -794,7 +794,7 @@
 19	.	.	PUNCT	PUNCT	_	1	punct	_	NewPar=Yes
 
 # sent_id = dev-5.2
-# text = Στη Μέση Ανατολή , ειδικά στην Ιορδανία δυστυχώς υπάρχουν πολλές από αυτές τις σκέψεις που τρέχουν στο μυαλό των ανθρώπων και μεταδίδονται απο γένια στν αλλα χωρίς να τεθεί το ερώτημα αν όντως ισχυουν ή αν έχουν τουλαχιστον επιστιμονική βαση . για παράδειγμα, η μαύρη γάτα υποδηλώνει το κάκο και τους δαίμονες, πιστεύεται ότι ο σατανός έχει τη μορφή γάτας, ειδικά τη νύχτα.
+# text = Στη Μέση Ανατολή , ειδικά στην Ιορδανία δυστυχώς υπάρχουν πολλές από αυτές τις σκέψεις που τρέχουν στο μυαλό των ανθρώπων και μεταδίδονται απο γένια στν αλλα χωρίς να τεθεί το ερώτημα αν όντως ισχυουν ή αν έχουν τουλαχιστον επιστιμονική βαση .
 1-2	Στη	_	_	_	_	_	_	_	_
 1	Σ	σε	ADP	ADP	_	4	case	_	_
 2	τη	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing	4	det	_	_
@@ -10420,7 +10420,7 @@
 12	οπωσδήποτε	οπωσδήποτε	ADV	ADV	_	14	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	14	punct	_	_
 14	παμε	πηγαινω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
-15-16	στι	στι	_	_	_	_	_	_	_
+15-16	στι	_	_	_	_	_	_	_	_
 15	σ	σε	ADP	ADP	_	17	case	_	_
 16	τι	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing	17	det	_	_
 17	Νάχος	Νάχος	PROPN	PROPN	Case=Nom|Gender=Fem|Number=Sing	14	obl	_	OrigLang=en
@@ -10432,7 +10432,7 @@
 1	Εμις	εγω	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
 2	θα	θα	AUX	AUX	_	3	aux	_	_
 3	πάμε	πηγαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
-4-5	στι	στι	_	_	_	_	_	_	_
+4-5	στι	_	_	_	_	_	_	_	_
 4	σ	σε	ADP	ADP	_	6	case	_	_
 5	τι	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing	6	det	_	_
 6	τηάλασσα	τηάλασσα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
