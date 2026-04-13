@@ -13,7 +13,7 @@ This annotation project is done in collaboration with Alexandros Tantos, Despoin
 
 ## References
 
-````bibtex
+```bibtex
 @inproceedings{ud4l2el,
     title = "Towards {U}niversal {D}ependencies for {L2} Learners of Modern {G}reek: Annotation and Challenges",
     author = "Klironomou, Christina and Pasparaki, Thelka and Masciolini, Arianna and Tantos, Alexandros and Touriki, Despoina Ourania and Tsiotskas, Konstantinos and Tsourilla, Eleni",
