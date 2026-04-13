@@ -220,10 +220,10 @@
 4	ότι	ότι	SCONJ	SCONJ	_	7	mark	_	_
 5	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
 6	δέντρα	δέντρο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
-7	παράγουν	παράζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+7	παράγουν	παράζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	οξυγόνο	οξυγόνο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
-10	προσφέρουν	προσφέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	προσφέρουν	προσφέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
 11	και	και	CCONJ	CCONJ	_	13	cc	_	_
 12	αισθητική	αισθητικός	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	13	amod	_	_
 13	ομορφιά	ομορφιά	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	10	obj	_	SpaceAfter=No

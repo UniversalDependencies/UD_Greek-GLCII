@@ -213,19 +213,19 @@
 1	εκτος	εκτος	ADV	ADV	_	11	cc	_	_
 2	απο	απο	ADP	ADP	_	4	case	_	_
 3	απο	απο	ADP	ADP	_	4	case	_	_
-4	αυτο	αυτος	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	16	conj	_	_
+4	αυτο	αυτος	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	0	root	_	_
 5	που	που	SCONJ	SCONJ	_	11	mark	_	_
 6	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
 7	δεντρα	δεντρο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	CorrectSpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	16	punct	_	_
 9	το	το	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	πρασινο	πρασινο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
-11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 12	οξυγονο	οξυγονο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 13	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	cop	_	_
 14	και	και	CCONJ	CCONJ	_	16	cc	_	_
 15	πολυ	πολυ	ADV	ADV	_	16	advmod	_	_
-16	ομορφο	ομορφος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	CorrectSpaceAfter=No
+16	ομορφο	ομορφος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	CorrectSpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id = dev-2.3.2
