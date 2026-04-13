@@ -142,7 +142,7 @@
 1	νομίζω	νομίζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_
 3	ότι	ότι	SCONJ	SCONJ	_	6	mark	_	_
-4	θα	θα	AUX	AUX	_	5	aux	_	_
+4	θα	θα	AUX	AUX	_	6	aux	_	_
 5	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
 6	δύσκολη	δύσκολος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	1	ccomp	_	_
 7	για	για	ADP	ADP	_	8	case	_	_
@@ -307,7 +307,7 @@
 6	φυτεψει	φυτευω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	advcl	_	_
 7	ενα	ενας	DET	DET	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	δεντρο	δεντρο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
-9	θα	θα	AUX	AUX	_	10	aux	_	_
+9	θα	θα	AUX	AUX	_	12	aux	_	_
 10	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	12	cop	_	_
 11	πολυ	πολυ	ADV	ADV	_	12	advmod	_	_
 12	ωραια	ωραια	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -514,7 +514,7 @@
 # sent_id = dev-3.9
 # text = Μαλλον δεν ηταν μια καλη κοινηση τα να αφησουμε τα πραγματα ανοιχτα αλλα προσοπικα πιστευω πως ηταν μια αποφαση η οποια βοηθησε στο να ανοιγωνται νεες δουλιες και επισης δεν χρεοκόπησε τη χώρα μας
 1	Μαλλον	μαλλον	ADV	ADV	_	6	advmod	_	_
-2	δεν	δεν	PART	PART	_	3	advmod	_	_
+2	δεν	δεν	PART	PART	_	6	advmod	_	_
 3	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	6	cop	_	_
 4	μια	ενας	DET	DET	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	καλη	καλος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
@@ -988,7 +988,7 @@
 4	μου	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	πρέπει	πρέπει	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	να	να	AUX	AUX	_	8	aux	_	_
+7	να	να	AUX	AUX	_	10	aux	_	_
 8	είμαστε	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	10	cop	_	_
 9	πιο	πιο	ADV	ADV	_	10	advmod	_	_
 10	λογικοί	λογικός	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Plur	6	csubj	_	_
