@@ -2,7 +2,7 @@
 # text = Γειά σας Δημήτρης. Τι κανεις; Είμαι καλά. Μένω στη Ελλάδα. Μαθαίνω ελληνικά στοΣχολείο Νεάς Ελληνικής Γλώσσας. Τον Ιούνιο πρέπει να γραψω ενα τεστ για το Πανεπιστημιο.Θέλω να σπουδάσω στη ιατρική σχολή. Ελληνική γλώσσα πολύ δύσκολη για μενα, γιατί στα ελληνικα πολλές νέες λέξεις. Θέλω να γίνω νευρολόγος, μου αρέσει να βοηθήσω τους ανθρώπους, τώρα διαβάζω ελληνικά καθε μερα Γράφω νέες λέξεις στο τετράδιο. Ακούω ράδιο και βλέπω τηλεόραση. Γνωρίζω πολύ καλά τη Βιολογία και τη χημεία. νομίζω, ότι θα είναι δύσκολη για μένα στο πανεπιστήμιο μόνο λόγω της γλώσσας. νομίζω, θα είναι καλός γιατρός, που μένεις; που δουλεύεις; ΧΧΧ
 # sent_id =  dev-1.1
 # text = Γεια σας Δημήτρης.
-1	Γεια	γεια	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_     
+1	Γεια	γεια	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	σας	εγώ	PRON	PRON	Case=Gen|Number=Plur|Person=2|PronType=Prs	1	nmod	_	_
 3	Δημήτρης	Δημήτρης	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	1	vocative	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -31,12 +31,12 @@
 # sent_id =  dev-1.5
 # text = Μαθαίνω ελληνικά στοΣχολείο Νεάς Ελληνικής Γλώσσας.
 1	Μαθαίνω	μαθαίνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	ελληνικά	ελληνικά	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_  
+2	ελληνικά	ελληνικά	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
 3-4	στο	_	_	_	_	_	_	_	_
 3	σ	σε	ADP	ADP	_	5	case	_	_
 4	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing	5	det	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 5	Σχολείο	Σχολείο	PROPN	PROPN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
-6	Νεάς	νεός	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_   
+6	Νεάς	νεός	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
 7	Ελληνικής	ελληνικός	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
 8	Γλώσσας	γλώσσα	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -70,44 +70,44 @@
 # sent_id =  dev-1.8
 # text = Ελληνική γλώσσα πολύ δύσκολη για μενα, γιατί στα ελληνικα πολλές νέες λέξεις.
 1	Ελληνική	ελληνικός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
-2	γλώσσα	γλώσσα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_  
+2	γλώσσα	γλώσσα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
 3	πολύ	πολύ	ADV	ADV	_	4	advmod	_	_
 4	δύσκολη	δύσκολος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 5	για	για	ADP	ADP	_	6	case	_	_
-6	μενα	εγώ	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No 
-7	,	,	PUNCT	PUNCT	_	14	punct	_	_    
+6	μενα	εγώ	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	PUNCT	_	14	punct	_	_
 8	γιατί	γιατί	SCONJ	SCONJ	_	14	mark	_	_
 9-10	στα	_	_	_	_	_	_	_	_
 9	σ	σε	ADP	ADP	_	11	case	_	_
 10	τα	ο	DET	DET	Case=Acc|Gender=Neut|Number=Plur	11	det	_	_
 11	ελληνικα	ελληνικά	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	14	obl	_	_
-12	πολλές	πολύς	DET	DET	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_  
+12	πολλές	πολύς	DET	DET	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
 13	νέες	νέος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	14	amod	_	_
-14	λέξεις	λέξη	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	4	orphan	_	SpaceAfter=No  
+14	λέξεις	λέξη	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	4	orphan	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id =  dev-1.9
-# text = Θέλω να γίνω νευρολόγος, μου αρέσει να βοηθήσω τους ανθρώπους, τώρα διαβάζω ελληνικά καθε μερα 
+# text = Θέλω να γίνω νευρολόγος, μου αρέσει να βοηθήσω τους ανθρώπους, τώρα διαβάζω ελληνικά καθε μερα
 1	Θέλω	θέλω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	να	να	AUX	AUX	_	3	aux	_	_
 3	γίνω	γίνoμαι	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Pass	1	xcomp	_	_
 4	νευρολόγος	νευρολόγος	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	xcomp	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	7	punct	_	_
 6	μου	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|PronType=Prs	7	iobj	_	_
-7	αρέσει	αρέσω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_  
+7	αρέσει	αρέσω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
 8	να	να	AUX	AUX	_	9	aux	_	_
 9	βοηθήσω	βοηθώ	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	7	csubj	_	_
 10	τους	ο	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	_
 11	ανθρώπους	άνθρωπος	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	9	obj	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	14	punct	_	_
 13	τώρα	τώρα	ADV	ADV	_	14	advmod	_	_
-14	διαβάζω	διαβάζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_  
+14	διαβάζω	διαβάζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
 15	ελληνικά	ελληνικά	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	14	obj	_	_
 16	καθε	καθε	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Ind	17	det	_	_
 17	μερα	μέρα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
 
 # sent_id =  dev-1.10.1
-# text = Γράφω νέες λέξεις στο τετράδιο. 
+# text = Γράφω νέες λέξεις στο τετράδιο.
 1	Γράφω	γράφω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	νέες	νέος	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Plur	3	amod	_	_
 3	λέξεις	λέξη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
@@ -193,7 +193,7 @@
 5	πολη	πολη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 6	χαρηζει	χαρηζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	υγεια	υγεια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	CorrectSpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes  
+8	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.2
 # text = Ειναι πολυ σιμαντικο να μην κοψουμε δεντρα,αντιθετος να φυτεψουμε.
@@ -208,17 +208,17 @@
 9	αντιθετος	αντιθέτως	ADV	ADV	Typo=Yes	11	cc	_	SpaceAfter=No|CorrectSpaceAfter=Yes|CorrectForm=αντιθέτως
 10	να	να	AUX	AUX	_	11	aux	_	_
 11	φυτεψουμε	φυτευω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
-12	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes 
+12	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.3.1
 # text = εκτος απο απο αυτο που τα δεντρα , το πρασινο παραγουν οξυγονο ειναι και πολυ ομορφο .
 1	εκτος	εκτος	ADV	ADV	_	11	cc	_	_
-2	απο	απο	ADP	ADP	_	4	case	_	_ 
+2	απο	απο	ADP	ADP	_	4	case	_	_
 3	απο	απο	ADP	ADP	_	4	case	_	_
 4	αυτο	αυτος	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	16	conj	_	_
-5	που	που	SCONJ	SCONJ	_	11	mark	_	_  
+5	που	που	SCONJ	SCONJ	_	11	mark	_	_
 6	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
-7	δεντρα	δεντρο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	CorrectSpaceAfter=No 
+7	δεντρα	δεντρο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	CorrectSpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 9	το	το	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	πρασινο	πρασινο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
@@ -228,7 +228,7 @@
 14	και	και	CCONJ	CCONJ	_	16	cc	_	_
 15	πολυ	πολυ	ADV	ADV	_	16	advmod	_	_
 16	ομορφο	ομορφος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	CorrectSpaceAfter=No
-17	.	.	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes 
+17	.	.	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.3.2
 # text = δεινει μια αισθητικη ομορφια .
@@ -236,7 +236,7 @@
 2	μια	ενας	DET	DET	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	αισθητικη	αισθητικος	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	4	amod	_	_
 4	ομορφια	ομορφια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	CorrectSpaceAfter=No
-5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes 
+5	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.4.1
 # text = ειναι πολυ καλο για το περιβαλλον μας.
@@ -247,7 +247,7 @@
 5	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	περιβαλλον	περιβαλλον	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	_
 7	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	SpaceAfter=No
-8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes 
+8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.4.2
 # text = ιδικα στις βιομηχανικες   πολεις.
@@ -264,7 +264,7 @@
 1	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
 2	πολλα	πολυς	DET	DET	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	0	root	_	_
 3	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
-4	θετικα	θετικος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No  
+4	θετικα	θετικος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.6
@@ -296,7 +296,7 @@
 24	φτιαξουμε	φτιαχνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	16	conj	_	_
 25	την	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	_
 26	ψηχολογια	ψηχολογια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
-27	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod	_	SpaceAfter=No  
+27	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	26	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.7
@@ -321,12 +321,12 @@
 18	και	και	CCONJ	CCONJ	_	21	cc	_	_
 19	για	για	ADP	ADP	_	21	case	_	_
 20	την	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
-21	υγεια	υγεια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_  
+21	υγεια	υγεια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	16	conj	_	_
 22	των	ο	DET	DET	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	23	det	_	_
 23	πολητων	πολητης	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
 24	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	nmod	_	_
 
-# newdoc id = Google_form_02_11_2022_11_10_04-518 
+# newdoc id = Google_form_02_11_2022_11_10_04-518
 # text = Μεχρι στιγμης ολος ο κοσμος βρισκεται σε χαοτικη κατασταση λογω του κοβιντ, πολλα ατομα που εχουν χαση τη ζωή, πολλες επειχηρησης ειχουν κλειση λογο καταστασεων και επισης κυκλοφορη μεγαλος φοβος για εναν αόρατο εχθρό Στην ιδια κατασταση βρισκεται και η χώρα μου, Αλβανία, αλλα λογο οικονομικών καταστασεων τα πραγματα είναι ανοικτα Εγω πιστευω πως η οικονομία μια χώρας αντικατοπτρίζει την κατάστασή του. Οταν οικονομικά τα πραγματα δεν λειτουργούν καλα τότε πολλα άτομα αλλάζουν. Καποιοι αρχήζουν να κλέβουν, καποιοι να σκωτόνουν και καποιοι γίνονται θύματα αυτής της άλλης ομάδας ανθρώπων που δεν ξέρουν πώς να αντιδράσουν σε δύσκολες στιγμές Πραξεις αυτες που αυξηθηκαν στο βαλκανη λογο του κοβιντ το οποιο έκλεισε πολλές δουλειές Ο τροπος που η χωρα μας προλήψε αυτη την κατασταση ειναι αφηνοντας πολλες επειχηρησης να δουλευουν κανονικα, αλλα με μετρα ασφαλειας Τα κρουσματα εχουν αυξηθη αλλα οχι σε μεγαλω επειπεδω οπως ηταν στην αρχη της πανδημιας Μαλλον δεν ηταν μια καλη κοινηση τα να αφησουμε τα πραγματα ανοιχτα αλλα προσοπικα πιστευω πως ηταν μια αποφαση η οποια βοηθησε στο να ανοιγωνται νεες δουλιες και επισης δεν χρεοκόπησε τη χώρα μας
 # sent_id =  dev-3.1
 # text = Μεχρι στιγμης ολος ο κοσμος βρισκεται σε χαοτικη κατασταση λογω του κοβιντ, πολλα ατομα που εχουν χαση τη ζωή, πολλες επειχηρησης ειχουν κλειση λογο καταστασεων και επισης κυκλοφορη μεγαλος φοβος για εναν αόρατο εχθρό
@@ -344,7 +344,7 @@
 12	κοβιντ	κοβιντ	PROPN	PROPN	_	6	obl	_	SpaceAfter=No|OrigLang=en
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_
 14	πολλα	πολυς	DET	DET	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	15	det	_	_
-15	ατομα	ατομο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	6	parataxis	_	_  
+15	ατομα	ατομο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	6	parataxis	_	_
 16	που	που	PRON	PRON	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Rel	18	nsubj	_	_
 17	εχουν	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
 18	χαση	χανω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	acl:relcl	_	_
@@ -590,7 +590,7 @@
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_
 14	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	cop	_	_
 15	μέρος	μέρος	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	3	ccomp	_	_
-16	τις	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_ 
+16	τις	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	17	det	_	_
 17	κουλτούρας	κουλτούρα	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
 18	και	και	CCONJ	CCONJ	_	24	cc	_	_
 19	βέβαια	βέβαια	ADV	ADV	_	24	advmod	_	_
@@ -964,7 +964,7 @@
 33	.	.	PUNCT	PUNCT	_	3	punct	_	NewPar=Yes
 
 # sent_id =  dev-5.7
-# text = Το πιο αστείο είναι ότι οι ηλικιωμένες γυναίκες μπορούν να διαβάσουν το μέλλον σας από ένα φλιτζάνι καφέ . 
+# text = Το πιο αστείο είναι ότι οι ηλικιωμένες γυναίκες μπορούν να διαβάσουν το μέλλον σας από ένα φλιτζάνι καφέ .
 1	Το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	πιο	πιο	ADV	ADV	_	3	advmod	_	_
 3	αστείο	αστείος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
@@ -2301,7 +2301,7 @@
 9	απόγευμα	απόγευμα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-# sent_id =  dev-11.12  
+# sent_id =  dev-11.12
 # text = Νομίζω ότι είναι η ωραιότερη μέρα από τις τρεις.
 1	Νομίζω	νομίζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	ότι	ότι	SCONJ	SCONJ	_	6	mark	_	_
@@ -2435,7 +2435,7 @@
 27	παντού	παντού	ADV	ADV	_	26	advmod	_	SpaceAfter=No
 28	.	.	PUNCT	PUNCT	_	13	punct	_	_
 
-# sent_id =  dev-12.5  
+# sent_id =  dev-12.5
 # text = Είμαστε τα παιδιά, τα αδέλφια, οι συνάδελφοι και οι φίλοι των στρέιτ, και έχουμε το ίδιο όνειρο να ερωτευτούμε και να παντρευτούμε, και να μεγαλώσουμε παιδιά, αλλά για κάποιο λόγο, αυτό δεν καταλαβαίνουν οι στρέιτ.
 1	Είμαστε	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	_
 2	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
@@ -2700,7 +2700,7 @@
 # newdoc id = Google_form_06_12_2022_19_01_06-1204
 # text = Θελο να μιλαω στι ταξιδι μου τον Δεκεμβριοσ. Τισ 27 Δεκεμβριο, θα παω στο Ηαουαι. Στο Ηαουαι, θα εχει πολυ ζεστη, και εγο θα κανω ηλιοθεραπια καθε μερα. Επισησ, θα παιξω τεωισ καθε μερα. Ειμαι ενδοθσιασμενοσ να δο η οικογενια μου, γιατι μενουν στο Καλιφορνια, κε εγο μενω στο Νεα Υορκη. Στο ταξιδι, καθε πρωι θα παω στο ωκεανοσ, και καθε νυχτα θα βγω με αδελφοι μου.
 # sent_id =  dev-13.1
-# text = Θελο να μιλαω στι ταξιδι μου τον Δεκεμβριοσ. 
+# text = Θελο να μιλαω στι ταξιδι μου τον Δεκεμβριοσ.
 1	Θελο	θελο	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	να	να	AUX	AUX	_	3	aux	_	_
 3	μιλαω	μιλαω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	xcomp	_	_
@@ -4300,7 +4300,7 @@
 10	,	,	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 11	ΚΑΘΩΣ	ΚΑΘΩΣ	SCONJ	SCONJ	_	13	mark	_	_
 12	ΑΝΘΡΩΠΟΙ	ΑΝΘΡΩΠΟΣ	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
-13	ΦΤΑΝΟΥΝ	ΦΤΑΝΩ	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_ 
+13	ΦΤΑΝΟΥΝ	ΦΤΑΝΩ	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
 14	ΣΕ	ΣΕ	ADP	ADP	_	17	case	_	_
 15	ΑΥΤΟ	ΑΥΤΟ	DET	DET	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	17	det	_	_
 16	ΤΟ	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
@@ -4392,7 +4392,7 @@
 9	ΑΤΟΜΟΥ	ΑΤΟΜΟΥ	NOUN	NOUN	Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
-# sent_id =  dev-20.9  
+# sent_id =  dev-20.9
 # text = ΓΙ'ΑΥΤΟ Η ΚΑΤΑΣΤΑΣΗ ΑΥΤΗ ΧΡΗΖΕΙ ΑΛΛΑΓΗΣ ΚΑΙ ΑΜΕΣΑ ΜΑΛΙΣΤΑ ΠΡΙΝ ΥΠΑΡΞΟΥΝ ΚΑΙ ΑΛΛΑ ΘΥΜΑΤΑ.
 1	ΓΙ'	ΓΙΑ	ADP	ADP	_	2	case	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 2	ΑΥΤΟ	ΑΥΤΟ	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	6	obl	_	_
@@ -4978,7 +4978,7 @@
 14	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # newdoc id = Google_form_12_04_2021_16_57_20-220
-# text = Τι είναι τα μελλοντικά μου σχέδια; Αν μου ρώτησαν πριν από ένα χρόνο, εγώ μπόρεσα να πω πολλά πράγματα. Είχα ελπίδα να ζήσω για πολλά χρονιά και να δω πολλά πράγματα. Ήθελα να είμαι καθηγήτρια στο πανεπιστήμιο μου και διάβαζα για να την γίνομαι. Ήθελα να ταξιδέψω στις άλλες χώρες και να δω το υπόλοιπο του κόσμου. Αλλά τώρα δεν έχω ελπίδα να κάνω τίποτα. Σκέφτομαι σαν Καζαντζάκης, “δεν ελπίζω τίποτα, δεν φοβάμαι τίποτα, είμαι ελεύτερος.” Υπάρχει μια διαφορά αναμεσά με τον Καζαντζάκης και εμένα, εγώ δεν αισθάνομαι ελεύτερη. Από την αρχή του 2020 έχει πανδημία στην Γη και στον κόσμο στην Γη και δεν μπορούμε να δούμε μπροστά μας και μένουμε συνείχα στο σπίτι μας, πάντα φοβόμαστε να έχουμε κορονοιόι. Με αλλά λογία ζούμε σε μια δυστροπία και κάθε μέρα φοβόμαστε, δεν συναντάμε τους φίλους μας, δεν βλέπουμε τις οικογένειες μας. Σκέφτομαι ότι είμαστε στο σπίτι μας και στο φιλάκι μας. Δεν μπορώ να δω τις καλές μέρες. Επομένως είμαι ο ζωντανός άνθρωπος και έχω ελπίδα για επόμενές μέρες να ζήσω και ελπίζω που εμείς θα δούμε τον ήλιο πίσω από τις γκρι συννεφιές και αυτό θα περάσει μετά από τις μαύρες μέρες. Αλλά το πιο σημαντικό είναι να επιβιώσουμε και φυσικά και πνευματικά και να περιμείνουμε την μέρα για να αγκαλιάσουμε τους αγαπημένους μας. Είναι η μόνη σχέδια μου για ένα ερχομένη χρόνο και άλλο ένα ερχομένη χρόνο. 
+# text = Τι είναι τα μελλοντικά μου σχέδια; Αν μου ρώτησαν πριν από ένα χρόνο, εγώ μπόρεσα να πω πολλά πράγματα. Είχα ελπίδα να ζήσω για πολλά χρονιά και να δω πολλά πράγματα. Ήθελα να είμαι καθηγήτρια στο πανεπιστήμιο μου και διάβαζα για να την γίνομαι. Ήθελα να ταξιδέψω στις άλλες χώρες και να δω το υπόλοιπο του κόσμου. Αλλά τώρα δεν έχω ελπίδα να κάνω τίποτα. Σκέφτομαι σαν Καζαντζάκης, “δεν ελπίζω τίποτα, δεν φοβάμαι τίποτα, είμαι ελεύτερος.” Υπάρχει μια διαφορά αναμεσά με τον Καζαντζάκης και εμένα, εγώ δεν αισθάνομαι ελεύτερη. Από την αρχή του 2020 έχει πανδημία στην Γη και στον κόσμο στην Γη και δεν μπορούμε να δούμε μπροστά μας και μένουμε συνείχα στο σπίτι μας, πάντα φοβόμαστε να έχουμε κορονοιόι. Με αλλά λογία ζούμε σε μια δυστροπία και κάθε μέρα φοβόμαστε, δεν συναντάμε τους φίλους μας, δεν βλέπουμε τις οικογένειες μας. Σκέφτομαι ότι είμαστε στο σπίτι μας και στο φιλάκι μας. Δεν μπορώ να δω τις καλές μέρες. Επομένως είμαι ο ζωντανός άνθρωπος και έχω ελπίδα για επόμενές μέρες να ζήσω και ελπίζω που εμείς θα δούμε τον ήλιο πίσω από τις γκρι συννεφιές και αυτό θα περάσει μετά από τις μαύρες μέρες. Αλλά το πιο σημαντικό είναι να επιβιώσουμε και φυσικά και πνευματικά και να περιμείνουμε την μέρα για να αγκαλιάσουμε τους αγαπημένους μας. Είναι η μόνη σχέδια μου για ένα ερχομένη χρόνο και άλλο ένα ερχομένη χρόνο.
 # sent_id =  dev-23.1
 # text = Τι είναι τα μελλοντικά μου σχέδια;
 1	Τι	τι	PRON	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Int	0	root	_	_
@@ -5973,7 +5973,7 @@
 # newdoc id = Google_form_13_09_2021_21_59_36-327
 # text = Γεια σου Μαρια, Τι κανείς; Είσαι καλα; Εχεἰ σχέδια για το καλοκαίρι; Εχώ τα μαθήματα στο πανεπιστίμιο τεσσερις μερες. ξυπνάω στις 8 το πρωι καθε μερα. την δευτερα ως την πεμπτι, παω στο πανεπιστίμιο για τα μαθήματα ή για να μελετάω στην βιβλιοτική. το σαββατοκηριακο, δουλεύω στην εστιατόριο. είμαι πολύ κουρασμένι και μου λειπει πολύ. θέλεις να παμε μαζι σε ενα μικρα νησι το επομενα καλοκαίρι; θυμάτε το διακοπες μας περσι το καλοκαίρι; ηταν πολύ καλα. Αν θέλεις, μπορούμε να συναντήσουμε στην Αθήνα και ταξιδεψουμε με την πλίο απο την πειρεα. Να παμε στην χιο. Εχεί ενα φιλη μου στην χιο και μπορουμε να μεινουμε στο σπιτι της. Μπορουμε να κολυμβησω στην θάλασσα, πιουμε πότα και βγουμε εξο το βραδυ. μπορούμε να περασουμε μια ωραια εβδομαδα και θα γυρισουμε. τι λές; Αν θέλεις να κανείς, μου τηλεφώνεις. καλή εβδομαδα...
 # sent_id =  dev-26.1
-# text = Γεια σου Μαρια, 
+# text = Γεια σου Μαρια,
 1	Γεια	γεια	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 2	σου	εγώ	PRON	PRON	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	nmod	_	_
 3	Μαρια	Μαρια	PROPN	PROPN	Case=Voc|Gender=Fem|Number=Sing	1	vocative	_	SpaceAfter=No
@@ -6014,7 +6014,7 @@
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id =  dev-26.6.1
-# text = ξυπνάω στις 8 το πρωι καθε μερα. 
+# text = ξυπνάω στις 8 το πρωι καθε μερα.
 1	ξυπνάω	ξυπνάω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2-3	στις	_	_	_	_	_	_	_	_
 2	σ	σε	ADP	ADP	_	4	case	_	_
@@ -6162,7 +6162,7 @@
 16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id =  dev-26.14
-# text = Μπορουμε να κολυμβησω στην θάλασσα, πιουμε πότα και βγουμε εξο το βραδυ. 
+# text = Μπορουμε να κολυμβησω στην θάλασσα, πιουμε πότα και βγουμε εξο το βραδυ.
 1	Μπορουμε	μπορω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	να	να	AUX	AUX	_	3	aux	_	_
 3	κολυμβησω	κολυμβω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	1	ccomp	_	_
@@ -7534,7 +7534,7 @@
 11	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 
 # sent_id =  dev-31.4
-# text = Μελετήσαμε το μενού σας και είδαμε ότι υπάρχουν πολλά προϊόντα αλευριού: πίτσα, πίτα, γλυκά, κτλ. 
+# text = Μελετήσαμε το μενού σας και είδαμε ότι υπάρχουν πολλά προϊόντα αλευριού: πίτσα, πίτα, γλυκά, κτλ.
 1	Μελετήσαμε	μελετώ	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	NewPar=Yes
 2	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	μενού	μενού	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
@@ -7638,7 +7638,7 @@
 14	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 
 # sent_id =  dev-31.10
-# text = Δεύτερον, πρέπει να πείτε πόσο σημαντικό είναι για αυτούς να τρώνε υγιεινά τρόφιμα 
+# text = Δεύτερον, πρέπει να πείτε πόσο σημαντικό είναι για αυτούς να τρώνε υγιεινά τρόφιμα
 1	Δεύτερον	δεύτερος	ADV	ADV	_	3	advmod	_	NewPar=Yes|SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
 3	πρέπει	πρέπει	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -7673,7 +7673,7 @@
 14	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 
 # sent_id =  dev-31.12
-# text = Για παράδειγμα μερικές συμβουλές για καλή υγεία: 
+# text = Για παράδειγμα μερικές συμβουλές για καλή υγεία:
 1	Για	για	ADP	ADP	_	2	case	_	_
 2	παράδειγμα	παράδειγμα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	4	nmod	_	_
 3	μερικές	μερικοί	DET	DET	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Ind	4	det	_	_
@@ -7717,7 +7717,7 @@
 12	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 
 # sent_id =  dev-31.15
-# text = 3. Μην τρώτε συνέχεια γλυκά και κόκκινο κρέας, δεν κάνει καλό στην χοληστερίνη 
+# text = 3. Μην τρώτε συνέχεια γλυκά και κόκκινο κρέας, δεν κάνει καλό στην χοληστερίνη
 1	3	3	NUM	NUM	NumType=Card	4	discourse	_	SpaceAfter=No|NewPar=Yes
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 3	Μην	μην	PART	PART	_	4	advmod	_	_
@@ -7790,7 +7790,7 @@
 3	προσθέσετε	προσθέτω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 4	κοτόπουλο	κοτόπουλο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
-6	γαλοπούλα	γαλοπούλα 	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
+6	γαλοπούλα	γαλοπούλα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	4	conj	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	8	punct	_	_
 8	φασόλια	φασόλι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
@@ -8397,7 +8397,7 @@
 18	.	.	PUNCT	PUNCT	_	6	punct	_	_
 
 # sent_id =  dev-33.10
-# text = Δεν είναι μιά πρακτική απαραιτήση μα είναι μία αρχή: ¨θέλω να έχω το διακαίωμα να διαλέξω, δεν πειράζει αν αυτό δεν είναι τόσο σπούδαιο¨. 
+# text = Δεν είναι μιά πρακτική απαραιτήση μα είναι μία αρχή: ¨θέλω να έχω το διακαίωμα να διαλέξω, δεν πειράζει αν αυτό δεν είναι τόσο σπούδαιο¨.
 1	Δεν	δεν	PART	PART	_	5	advmod	_	_
 2	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	_
 3	μιά	ένας	DET	DET	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
@@ -8812,7 +8812,7 @@
 9	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
 
 # sent_id =  dev-35.5
-# text = πολλά φιλιά, θα γράψω σύντομα αν λειτούργησε ! 
+# text = πολλά φιλιά, θα γράψω σύντομα αν λειτούργησε !
 1	πολλά	πολύς	DET	DET	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	2	det	_	NewPar=Yes
 2	φιλιά	φιλί	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
@@ -9503,7 +9503,7 @@
 
 # newdoc id = Google_form_22_12_2021_20_09_04-442
 # text = Το περασμένο καλοκαίρι πήγαμε με τον άντρα να ξεκουραστούμε στην Αλβανία. Πήγαμε εκείνη τον Ιούλιο. Ήμασταν στους Αγίους Σαράντα. Είναι μια αλβανική πόλη αρκετά κοντά στα σύνορα με την Ελλάδα. Κάθε μέρα από το παράθυρο του ξενοδοχείου βλέπαμε την Κερκυρα. Ηθελα πολυ να φτασω σε αυτο το νησι. Αλλά δυστυχώς εμείς δεν ήμασταν λόγω της πανδημίας Ο καιρος ηταν καλος, ειχε ζεστη και ηλιο, και δεν εβρεξε καθολου. Γιατι πηγαίνανε στην θάλασσα, κολυμπούσανε κάθε μέρα, φάγαμε φρέσκα φρούτα όπως βερίκοκα, σταφύλια, καρπούζι κτλ Στα γενέθλια μου πήγανε εκδρομή στα αλβανικά βουνά. Πήγαμε σε μια αρχαία ελληνική πόλη Ιεροκαστρο. Μετά πήγαμε σε μια λίμνη με πολυ ομορφο γαλαζιο χρωμα νερου.Πολλοι ανθρωποι κολυμπησαν, αλλα δεν μπορουσα, γιατι το νερο σε αυτη τη λιμνη ειναι πολυ κρυο. Μου αρεσε πολυ η φυση της Αλβανιας. Είδαμε την ωραία Δύση του ηλίου πανω απο το Ιονιο πελαγος και την Κερκυρα. Ήταν ωραία και μου άρεσε πολύ το ταξιδι μας. Αν και ήθελα να πάω όχι στην Αλβανός αλλά στην Ελλάδα.
-# sent_id =  dev-39.1   
+# sent_id =  dev-39.1
 # text = Το περασμένο καλοκαίρι πήγαμε με τον άντρα να ξεκουραστούμε στην Αλβανία.
 1	Το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	περασμένο	περνώ	VERB	VERB	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
@@ -9556,7 +9556,7 @@
 13	.	.	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 
 # sent_id =  dev-39.4
-# text = Κάθε μέρα από το παράθυρο του ξενοδοχείου βλέπαμε την Κερκυρα. 
+# text = Κάθε μέρα από το παράθυρο του ξενοδοχείου βλέπαμε την Κερκυρα.
 1	Κάθε	κάθε	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Ind	2	det	_	NewPar=Yes
 2	μέρα	μέρα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
 3	από	από	ADP	ADP	_	5	case	_	_
@@ -9611,7 +9611,7 @@
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id =  dev-39.7
-# text = Γιατι πηγαίνανε στην θάλασσα, κολυμπούσανε κάθε μέρα, φάγαμε φρέσκα φρούτα όπως βερίκοκα, σταφύλια, καρπούζι κτλ 
+# text = Γιατι πηγαίνανε στην θάλασσα, κολυμπούσανε κάθε μέρα, φάγαμε φρέσκα φρούτα όπως βερίκοκα, σταφύλια, καρπούζι κτλ
 1	Γιατι	γιατι	ADV	SCONJ	_	2	mark	_	_
 2	πηγαίνανε	πηγαίνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	στην	_	_	_	_	_	_	_	_
@@ -10175,7 +10175,7 @@
 12	.	.	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 
 # sent_id =  dev-41.22
-# text = «Σαράντα πέντε!» 
+# text = «Σαράντα πέντε!»
 1	«	«	PUNCT	PUNCT	_	2	punct	_	NewPar=Yes|SpaceAfter=No
 2	Σαράντα	σαράντα	NUM	NUM	NumType=Card	0	root	_	_
 3	πέντε	πέντε	NUM	NUM	NumType=Card	2	compound	_	SpaceAfter=No
@@ -10228,7 +10228,7 @@
 12	.	.	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id =  dev-41.28
-# text = Κάθε μέρα εγώ έκανα μπάνιο στην θάλασσα αλλά το νερό ήταν πάρα πολύ κριή – δεκατέσσερα βάθοι – Βρρρ. 
+# text = Κάθε μέρα εγώ έκανα μπάνιο στην θάλασσα αλλά το νερό ήταν πάρα πολύ κριή – δεκατέσσερα βάθοι – Βρρρ.
 1	Κάθε	κάθε	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Ind	2	det	_	_
 2	μέρα	μέρα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
 3	εγώ	εγώ	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
@@ -10272,7 +10272,7 @@
 16	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 
 # sent_id =  dev-41.30
-# text = «Vierzehen Graden» μου ήπιε.» 
+# text = «Vierzehen Graden» μου ήπιε.»
 1	«	«	PUNCT	PUNCT	_	3	punct	_	NewPar=Yes|SpaceAfter=No
 2	Vierzehen	Vierzehen	NUM	NUM	Foreign=Yes	3	nummod	_	Lang=de
 3	Graden	Graden	NOUN	NOUN	Foreign=Yes	6	ccomp	_	Lang=de|SpaceAfter=No
@@ -10283,7 +10283,7 @@
 8	»	»	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-41.31.1
-# text = Das ist sehr sehr kalt.” 
+# text = Das ist sehr sehr kalt.”
 1	Das	das	DET	DET	Foreign=Yes	5	nsubj	_	Lang=de
 2	ist	ist	AUX	AUX	Foreign=Yes	5	cop	_	Lang=de
 3	sehr	sehr	ADV	ADV	Foreign=Yes	4	advmod	_	Lang=de
@@ -10550,7 +10550,7 @@
 18	ελληνικα	ελληνικα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	17	obj	_	_
 
 # sent_id =  dev-43.4
-# text = ) Και απο που! 
+# text = ) Και απο που!
 1	)	(	PUNCT	PUNCT	Typo=Yes	4	punct	_	CorrectForm=(|CorrectSpaceAfter=No
 2	Και	και	CCONJ	CCONJ	_	4	cc	_	_
 3	απο	απο	ADP	ADP	_	4	case	_	_
@@ -10728,7 +10728,7 @@
 6	!	!	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id =  dev-43.14
-# text = Τελως πάντων, οπως το ζητάτε,πρόχειρα) 
+# text = Τελως πάντων, οπως το ζητάτε,πρόχειρα)
 1	Τελως	τελως	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	8	discourse	_	_
 2	πάντων	πας	ADJ	ADJ	Case=Gen|Gender=Neut|Number=Plur	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	6	punct	_	_
@@ -10751,7 +10751,7 @@
 8	να	να	AUX	AUX	_	9	aux	_	_
 9	διαβάζω	διαβάζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	xcomp	_	_
 10	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	11	det	_	_
-11	βιβλίο	βιβλίο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_ 
+11	βιβλίο	βιβλίο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
 12	"	"	PUNCT	PUNCT	_	15	punct	_	SpaceAfter=No
 13	Ενα	ενα	DET	DET	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	14	det	_	_
 14	παιδί	παιδί	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
@@ -12003,7 +12003,7 @@
 11	πάρκο	πάρκο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
-# newdoc id = Google_form_24_11_2020_13_55_12-657     
+# newdoc id = Google_form_24_11_2020_13_55_12-657
 # text = μένω στη Ελλάδα εδώ και 4 χρόνια περίπου. Μένω στη θεσσαλονίκη, ενοικιάζω ένα μικρό σπίτι στην περιοχή της Τούμπας. Το σπίτι που νοικιάζω ήταν πολύ χάλια όταν το πήρα, πολύ βρομίκο. Μόλις μπήκα στο σπίτι ξεκηνούσα το καθάρισμα. έβαψα το σπίτι και έφερα κενούρια έπιπλα.Μένω με τη γυνέκα και έχουμε αγοράκι. Το σπίτι έχει ένα σαλόνι, δύο ύπνοδομάτια, δύο μπαλκόνια. το Σανλόνι δεν είναι πολύ μεγάλο αλλά είναι αρκετά για μένα, έχω μέσα μια μεγάλη τηλεώραση,  μια μικρή βιβλιοθήκη και δύο καναπέδες. το πρώτο ύπνοδομάτιο είναι του μωρού έχει μεγάλη ντουλάμπα, κρεβατάκι και τα παιχνίδια του μωρού, στους τύχους έχουμε πολύ ωραία αυτοκόλητα. το τριτό δωμάτιο είναι δικό μας. Έχουμε μεγαλή κουζίνα με μεγάλο μπαλκόνι. Το μπάνιο είναι μεγάλο αλλά χριάζεται ανακένηση. Μας αρέσει πολύ το σπίτι και μας άρεσει πιο πλύ η περιοχή είναι πολύ ήσηχη και εχούμε από όλα τα μαγαζιά σας να είμαστε στο κέντρο.Είμαστε πολύ ευτηχυσμένοι και χαρούμενο. στο σπίτι μας.
 # sent_id =  dev-50.1
 # text = μένω στη Ελλάδα εδώ και 4 χρόνια περίπου.
