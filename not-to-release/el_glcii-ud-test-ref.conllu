@@ -9997,7 +9997,7 @@
 19	έζησε	ζω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
 20	ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	_
 21	Άγιος	άγιος	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	22	amod	_	_
-22	Παΐσιος	Παΐσιος	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
+22	Παΐσιος	Παΐσιος	PROPN	PROPN	Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 
 # sent_id =  dev-40.7

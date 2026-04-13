@@ -7957,7 +7957,7 @@
 9	Τσουγκτσἰγκ	Τσουγκτσἰγκ	PROPN	PROPN	_	6	conj	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	12	punct	_	_
 11	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	_
-12	Γκουαντζοὐν	Γκουαντζοὐν	PROPN	PROPN	_	6	conj	_	SpaceAfter=No
+12	Γκουαντζοὐν	Γκουαντζοὐν	PROPN	PROPN	_	6	conj	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_
 14	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	det	_	_
 15	Σενζἐν	Σενζἐν	PROPN	PROPN	_	6	conj	_	SpaceAfter=No
