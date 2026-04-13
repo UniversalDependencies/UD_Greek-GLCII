@@ -1,6 +1,5 @@
 # Summary
-
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/contributing/release_checklist.html#the-readme-file) for README guidelines) ...
+A treebank based on version 2 of the Greek Learner Corpus (GLCII), consisting of written data produced by learners of Modern Greek.
 
 
 # Introduction
@@ -10,7 +9,7 @@
 
 # Acknowledgments
 
-...
+This annotation project is done in collaboration with Alexandros Tantos, Despoina Ourania Touriki, Konstantinos Tsiotskas and Eleni Tsourilla.
 
 ## References
 
@@ -26,17 +25,17 @@
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.18
-License: CC BY-SA 4.0
+License: CC BY-NC-SA 4.0
 Includes text: yes
 Parallel: no
-Genre: TO-BE-SPECIFIED
+Genre: learner-essays
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
-Features: manual native
+Features: automatic with corrections 
 Relations: manual native
-Contributors: Masciolini, Arianna; Klironomou, Christina; Pasparaki, Thelka
+Contributors: Klironomou, Christina; Pasparaki, Thelka; Masciolini, Arianna 
 Contributing: here
-Contact: arianna.masciolini@gu.se
+Contact: christinaklir@gmail.com
 ===============================================================================
 </pre>
