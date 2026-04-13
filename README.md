@@ -13,7 +13,15 @@ This annotation project is done in collaboration with Alexandros Tantos, Despoin
 
 ## References
 
-* (citation)
+````bibtex
+@inproceedings{ud4l2el,
+    title = "Towards {U}niversal {D}ependencies for {L2} Learners of Modern {G}reek: Annotation and Challenges",
+    author = "Klironomou, Christina and Pasparaki, Thelka and Masciolini, Arianna and Tantos, Alexandros and Touriki, Despoina Ourania and Tsiotskas, Konstantinos and Tsourilla, Eleni",
+    year = "2026",
+    booktitle = {Proceedings of the Ninth workshop on {U}niversal {D}ependencies ({UDW}, {LREC} 2026)},
+    note = "upcoming"
+}
+```
 
 
 # Changelog
