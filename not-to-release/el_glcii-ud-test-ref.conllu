@@ -4937,7 +4937,7 @@
 32	και	και	CCONJ	CCONJ	_	35	cc	_	_
 33	τα	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	35	det	_	_
 34	πολλά	πολύς	DET	DET	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	35	det	_	_
-35	μπαράκια	μπαρ	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur|Degree=Dim	20	conj	_	_
+35	μπαράκια	μπαρ	NOUN	NOUN	Case=Acc|Degree=Dim|Gender=Neut|Number=Plur	20	conj	_	_
 36	της	εγώ	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -4945,7 +4945,7 @@
 # text = Τα διάφορα σπιτάκια της μαζί με το γαλάζιο χρώμα της θάλασσας τής δίνουν μια ξεχωριστή ομορφιά.
 1	Τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
 2	διάφορα	διάφορος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Plur	3	amod	_	_
-3	σπιτάκια	σπίτι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur|Degree=Dim	13	nsubj	_	_
+3	σπιτάκια	σπίτι	NOUN	NOUN	Case=Nom|Degree=Dim|Gender=Neut|Number=Plur	13	nsubj	_	_
 4	της	εγώ	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
 5	μαζί	μαζί	ADV	ADV	_	13	advmod	_	_
 6	με	με	ADP	ADP	_	9	case	_	_
@@ -6071,7 +6071,7 @@
 # sent_id = dev-26.2
 # text = Τι κάνεις;
 1	Τι	τι	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Int	2	obj	_	NewPar=Yes
-2	κάνεις	κάνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act|Typo=Yes	0	root	_	SpaceAfter=No
+2	κάνεις	κάνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Typo=Yes|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 3	;	;	PUNCT	PUNCT	_	2	punct	_	_
 
 # sent_id = dev-26.3
@@ -7550,7 +7550,7 @@
 # text = Κάθισα εκεί μία άλλη βδομάδα, με φίλους, πανέμορφη θάλασσα και πάλι ωραίο ρεμπέτικο.
 1	Κάθισα	Κάθισα	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	εκεί	εκεί	ADV	ADV	_	1	advmod	_	_
-3	μία	ένας	NUM	NUM	Case=Acc|Gender=Fem|Number=Sing|PronType=Art|NumType=Card	5	nummod	_	_
+3	μία	ένας	NUM	NUM	Case=Acc|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	nummod	_	_
 4	άλλη	άλλος	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Ind	5	det	_	_
 5	βδομάδα	βδομάδα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -11222,7 +11222,7 @@
 
 # sent_id = dev-46.4
 # text = Ξέρω πολλά για την ελληνική ιστορία και τους ελληνικούς μύθους.
-1	Ξέρω	ξέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Tense=Pres|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
+1	Ξέρω	ξέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	πολλά	πολύς	DET	DET	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	1	obj	_	_
 3	για	για	ADP	ADP	_	6	case	_	_
 4	την	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
@@ -12258,7 +12258,7 @@
 3	ντουλάπα	ντουλάπα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
 5	ένα	ένας	DET	DET	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
-6	κρεβατάκι	κρεβάτι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing|Degree=Dim	3	conj	_	_
+6	κρεβατάκι	κρεβάτι	NOUN	NOUN	Case=Acc|Degree=Dim|Gender=Neut|Number=Sing	3	conj	_	_
 7	και	και	CCONJ	CCONJ	_	9	cc	_	_
 8	τα	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	9	det	_	_
 9	παιχνίδια	παιχνίδι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	3	conj	_	_
