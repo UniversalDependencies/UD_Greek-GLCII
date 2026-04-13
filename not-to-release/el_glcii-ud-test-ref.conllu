@@ -1278,7 +1278,7 @@
 12	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	det	_	_
 13	κοινό	κοινό	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	_
 14	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
-15	σκηνοθέτις	σκηνοθέτις	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	SpaceAfter=No
+15	σκηνοθέτις	σκηνοθέτις	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 16	(	(	PUNCT	PUNCT	_	20	punct	_	SpaceAfter=No
 17	μια	ένας	DET	DET	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 18	νεαρή	νεαρός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	20	amod	_	_

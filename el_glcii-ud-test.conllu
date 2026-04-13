@@ -31,9 +31,9 @@
 # text = Μαθαίνω ελληνικά στοΣχολείο Νεάς Ελληνικής Γλώσσας.
 1	Μαθαίνω	μαθαίνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	ελληνικά	ελληνικά	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	1	obj	_	_
-3-4	στο	_	_	_	_	_	_	_	_
+3-4	στο	_	_	_	_	_	_	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 3	σ	σε	ADP	ADP	_	5	case	_	_
-4	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing	5	det	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+4	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing	5	det	_	_
 5	Σχολείο	Σχολείο	PROPN	PROPN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	_
 6	Νεάς	νεός	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
 7	Ελληνικής	ελληνικός	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	8	amod	_	_
@@ -52,7 +52,7 @@
 8	για	για	ADP	ADP	_	10	case	_	_
 9	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	Πανεπιστημιο	πανεπιστημιο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
-11	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=Νο|CorrectSpaceAfter=Yes
+11	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-1.7
 # text = Θέλω να σπουδάσω στη ιατρική σχολή.
@@ -139,7 +139,7 @@
 
 # sent_id =  dev-1.12
 # text = νομίζω, ότι θα είναι δύσκολη για μένα στο πανεπιστήμιο μόνο λόγω της γλώσσας.
-1	νομίζω	νομίζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	νομίζω	νομίζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_
 3	ότι	ότι	SCONJ	SCONJ	_	6	mark	_	_
 4	θα	θα	AUX	AUX	_	5	aux	_	_
@@ -159,7 +159,7 @@
 
 # sent_id =  dev-1.13
 # text = νομίζω, θα είναι καλός γιατρός, που μένεις;
-1	νομίζω	νομίζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+1	νομίζω	νομίζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_
 3	θα	θα	AUX	AUX	_	6	aux	_	_
 4	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
@@ -190,7 +190,7 @@
 4	την	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing	5	det	_	_
 5	πολη	πολη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
 6	χαρηζει	χαρηζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	υγεια	υγεια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	CorrectSpaceAfter=No
+7	υγεια	υγεια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
 8	.	.	PUNCT	PUNCT	_	6	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.2
@@ -202,10 +202,10 @@
 5	μην	μην	PART	PART	_	6	advmod	_	_
 6	κοψουμε	κοβω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	_
 7	δεντρα	δεντρο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	SpaceAfter=No
-8	,	,	PUNCT	PUNCT	_	11	punct	_	_
-9	αντιθετος	αντιθέτως	ADV	ADV	Typo=Yes	11	cc	_	SpaceAfter=No|CorrectSpaceAfter=Yes|CorrectForm=αντιθέτως
+8	,	,	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
+9	αντιθετος	αντιθέτως	ADV	ADV	Typo=Yes	11	cc	_	CorrectSpaceAfter=Yes|CorrectForm=αντιθέτως
 10	να	να	AUX	AUX	_	11	aux	_	_
-11	φυτεψουμε	φυτευω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	φυτεψουμε	φυτευω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-2.3.1
@@ -217,7 +217,7 @@
 5	που	που	SCONJ	SCONJ	_	11	mark	_	_
 6	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
 7	δεντρα	δεντρο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	CorrectSpaceAfter=No
-8	,	,	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+8	,	,	PUNCT	PUNCT	_	16	punct	_	_
 9	το	το	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	πρασινο	πρασινο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
 11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
@@ -4322,7 +4322,7 @@
 11	ΥΠ"	ΥΠΟ	ADP	ADP	_	10	obl	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 12	ΟΨΙΝ	ΟΨΗ	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	11	fixed	_	_
 13	ΛΙΑΝ	ΛΙΑΝ	ADV	ADV	_	10	advmod	_	_
-14	ΣΥΝΤΟΜΩΣ	ΣΥΝΤΟΜΩΣ	NOUN	NOUN	_	13	fixed	_	_
+14	ΣΥΝΤΟΜΩΣ	ΣΥΝΤΟΜΩΣ	NOUN	NOUN	_	13	fixed	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-20.7
@@ -4349,7 +4349,7 @@
 20	ΕΜΦΑΝΙΣΗΣ	ΕΜΦΑΝΙΣΗ	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 21	ΠΧ	ΠΧ	ADP	ADP	Abbr=Yes	22	obl	_	_
 22	ΠΕΦΤΟΥΝ	ΠΕΦΤΩ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	appos	_	_
-23	ΜΑΛΛΙΑ	ΜΑΛΛΙ	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	_
+23	ΜΑΛΛΙΑ	ΜΑΛΛΙ	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	SpaceAfter=No
 24	,	,	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 25	ΑΛΛΑΓΗ	ΑΛΛΑΓΗ	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	22	conj	_	_
 26	ΧΡΩΜΑΤΟΣ	ΧΡΩΜΑ	NOUN	NOUN	Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
@@ -8234,7 +8234,7 @@
 2	τις	εγώ	PRON	PRON	Case=Acc|Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
 3	δούμε	βλέπω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 4	χωριστά	χωριστά	ADV	ADV	_	3	advmod	_	SpaceAfter=No
-5	,	,	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
+5	,	,	PUNCT	PUNCT	_	9	punct	_	_
 6	Τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	8	det	_	NewPar=Yes
 7	κγέι	κγέι	ADJ	ADJ	_	8	amod	_	OrigLang=en
 8	ζευγάρια	ζευγάρι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	9	nsubj	_	_
@@ -8714,7 +8714,7 @@
 # text = Αγαπητή 'Ολγα, Τι κάνεις ;
 1	Αγαπητή	αγαπητός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 2	'Ολγα	'Ολγα	PROPN	PROPN	Case=Voc|Gender=Fem|Number=Sing	5	vocative	_	SpaceAfter=No
-3	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	Τι	τι	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Int	5	obj	_	NewPar=Yes
 5	κάνεις	κάνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	CorrectSpaceAfter=No
 6	;	;	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
@@ -9332,7 +9332,7 @@
 # text = Άνθρωποι ειχε καπνησεικαι θα συνεχίζουν να καπνίζουν.
 1	Άνθρωποι	άνθρωπος	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	ειχε	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	καπνησει	καπνιζω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act|Number=Sing|Person=3	0	root	_	SpacesAfter=No|CorrectSpaceAfter=Yes
+3	καπνησει	καπνιζω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act|Number=Sing|Person=3	0	root	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 4	και	και	CCONJ	CCONJ	_	6	cc	_	_
 5	θα	θα	AUX	AUX	_	6	aux	_	_
 6	συνεχίζουν	συνεχίζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
@@ -10650,7 +10650,7 @@
 
 # sent_id =  dev-43.12
 # text = Ωχ...Τώρα σας γράφω ,γυρίζοντας στο σπιτι, στο λεωφορείο, στο κινητό μου..
-1	Ωχ	ωχ	INTJ	INTJ	_	5	discourse	_	_
+1	Ωχ	ωχ	INTJ	INTJ	_	5	discourse	_	SpaceAfter=No
 2	...	...	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 3	Τώρα	τώρα	ADV	ADV	_	5	advmod	_	_
 4	σας	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=2|PronType=Prs	5	iobj	_	_
@@ -11226,9 +11226,9 @@
 5	Βασιλικό	βασιλικός	PROPN	PROPN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
 6	Θεατρό	θεατρό	PROPN	PROPN	Case=Acc|Gender=Neut|Number=Sing	5	flat	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	12	punct	_	_
-8-9	στ'	_	_	_	_	_	_	_	_
+8-9	στ'	_	_	_	_	_	_	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 8	σ	σε	ADP	ADP	_	10	case	_	_
-9	τ'	ο	DET	DET	Case=Acc|Gender=Neut|Number=Plur	10	det	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+9	τ'	ο	DET	DET	Case=Acc|Gender=Neut|Number=Plur	10	det	_	_
 10	αριστερά	αριστερά	ADV	ADV	_	12	obl	_	_
 11	μου	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	obl	_	_
 12	βλέπω	βλέπω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11347,7 +11347,7 @@
 4-5	στο	_	_	_	_	_	_	_	_
 4	σ	σε	ADP	ADP	_	6	reparandum	_	_
 5	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing	7	reparandum	_	_
-6	σ`	σε	ADP	ADP	_	7	case	_	_
+6	σ`	σε	ADP	ADP	_	7	case	_	SpaceAfter=No
 7	ενα	ενα	DET	DET	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	βιβλιοπωλείο	βιβλιοπωλείο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -11451,7 +11451,7 @@
 1	Αγαπημένη	αγαπάω	VERB	VERB	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
 2	μου	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	Ελεανόρ	Ελεανόρ	PROPN	PROPN	_	5	vocative	_	SpaceAfter=No|OrigLang=en
-4	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
 5	Έχω	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NewPar=Yes
 6	μια	ένας	DET	DET	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	ιδέα	ιδέα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
