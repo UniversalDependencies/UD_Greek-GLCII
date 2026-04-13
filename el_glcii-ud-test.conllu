@@ -4242,7 +4242,7 @@
 8	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id =  dev-20.4
-# text = ΠΛΕΟΝ ΤΑ ΚΟΡΙΤΣΙΑ ΒΛΕΠΟΝΤΑΣ ΤΑ ΜΟΝΤΕΛΑ ΣΕ ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ ΚΟΙΝΩΝΙΚΗΣ ΔΙΚΤΥΩΣΗΣ ΠΡΟΣΠΑΘΟΥΝ ΝΑ ΤΙΣ ΜΙΜΗΘΟΥΝ,ΧΩΡΙΣ ΝΑ ΣΚΕΦΤΟΝΤΑΙ ΤΙΣ ΣΥΝΕΠΕΙΕΣ
+# text = ΠΛΕΟΝ ΤΑ ΚΟΡΙΤΣΙΑ ΒΛΕΠΟΝΤΑΣ ΤΑ ΜΟΝΤΕΛΑ ΣΕ ΔΙΑΦΟΡΕΣ ΕΦΑΡΜΟΓΕΣ ΚΟΙΝΩΝΙΚΗΣ ΔΙΚΤΥΩΣΗΣ ΠΡΟΣΠΑΘΟΥΝ ΝΑ ΤΙΣ ΜΙΜΗΘΟΥΝ,ΧΩΡΙΣ ΝΑ ΣΚΕΦΤΟΝΤΑΙ ΤΙΣ ΣΥΝΕΠΕΙΕΣ.
 1	ΠΛΕΟΝ	ΠΛΕΟΝ	ADV	ADV	_	12	advmod	_	_
 2	ΤΑ	Ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	3	det	_	_
 3	ΚΟΡΙΤΣΙΑ	ΚΟΡΙΤΣΙ	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
@@ -6880,7 +6880,7 @@
 24	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id =  dev-29.6
-# text = Πώς ο δήμαρχος μόνος του αποφασίζει τα δικαιώματά μας!
+# text = Πώς ο δήμαρχος μόνος του αποφασίζει τα δικαιώματά μας!!
 1	Πώς	πώς	ADV	ADV	_	6	advmod	_	_
 2	ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	_
 3	δήμαρχος	δήμαρχος	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
