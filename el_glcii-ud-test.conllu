@@ -937,7 +937,7 @@
 11	αυτο	αυτος	PRON	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	12	nsubj	_	_
 12	σημαίνει	σημαίνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj	_	_
 13	οτι	οτι	SCONJ	SCONJ	_	15	mark	_	_
-14	θα	θα	AUX	AUX	_	15	mark	_	_
+14	θα	θα	AUX	AUX	_	15	aux	_	_
 15	συμβεί	συμβαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	ccomp	_	_
 16	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	17	det	_	_
 17	αντίθετο	αντίθετος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
