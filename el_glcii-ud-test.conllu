@@ -210,22 +210,22 @@
 
 # sent_id = dev-2.3.1
 # text = εκτος απο απο αυτο που τα δεντρα , το πρασινο παραγουν οξυγονο ειναι και πολυ ομορφο .
-1	εκτος	εκτος	ADV	ADV	_	11	cc	_	_
+1	εκτος	εκτος	ADV	ADV	_	4	advmod	_	_
 2	απο	απο	ADP	ADP	_	4	case	_	_
 3	απο	απο	ADP	ADP	_	4	case	_	_
-4	αυτο	αυτος	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	0	root	_	_
+4	αυτο	αυτος	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	16	advcl	_	_
 5	που	που	SCONJ	SCONJ	_	11	mark	_	_
 6	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	7	det	_	_
 7	δεντρα	δεντρο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	11	nsubj	_	CorrectSpaceAfter=No
-8	,	,	PUNCT	PUNCT	_	16	punct	_	_
+8	,	,	PUNCT	PUNCT	_	7	punct	_	_
 9	το	το	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	πρασινο	πρασινο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
-11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
 12	οξυγονο	οξυγονο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 13	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	cop	_	_
 14	και	και	CCONJ	CCONJ	_	16	cc	_	_
 15	πολυ	πολυ	ADV	ADV	_	16	advmod	_	_
-16	ομορφο	ομορφος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	4	conj	_	CorrectSpaceAfter=No
+16	ομορφο	ομορφος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	CorrectSpaceAfter=No
 17	.	.	PUNCT	PUNCT	_	16	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
 # sent_id = dev-2.3.2
@@ -302,7 +302,7 @@
 1	εαν	αν	SCONJ	SCONJ	_	6	mark	_	_
 2	ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 3	καθε	καθε	DET	DET	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	det	_	_
-4	ενασ	ενας	NOUN	NOUN	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	nsubj	_	_
+4	ενασ	ενας	NUM	NUM	_	3	compound	_	_
 5	να	να	AUX	AUX	_	6	aux	_	_
 6	φυτεψει	φυτευω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	advcl	_	_
 7	ενα	ενας	DET	DET	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
@@ -878,7 +878,7 @@
 # text = Αλλό παράδειγμα , είναι οτι το μαύρο κοράκι πετάει πάνω από μια περιοχή, αυτό δείχνει θλίψη, καταστροφή που θα συμβεί σε αυτήν την περιοχή.
 1	Αλλό	αλλός	DET	DET	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Ind	2	det	_	_
 2	παράδειγμα	παράδειγμα	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-3	,	,	PUNCT	PUNCT	_	9	punct	_	_
+3	,	,	PUNCT	PUNCT	_	2	punct	_	_
 4	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
 5	οτι	οτι	SCONJ	SCONJ	_	9	mark	_	_
 6	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
@@ -2456,11 +2456,11 @@
 29	μεγαλώσουμε	μεγαλώνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	22	conj	_	_
 30	παιδιά	παιδί	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	29	obj	_	SpaceAfter=No
 31	,	,	PUNCT	PUNCT	_	35	punct	_	_
-32	αλλά	αλλά	CCONJ	CCONJ	_	39	cc	_	_
+32	αλλά	αλλά	CCONJ	CCONJ	_	35	cc	_	_
 33	για	για	ADP	ADP	_	35	case	_	_
 34	κάποιο	κάποιος	DET	DET	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Ind	35	det	_	_
 35	λόγο	λόγος	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	39	obl	_	SpaceAfter=No
-36	,	,	PUNCT	PUNCT	_	39	punct	_	_
+36	,	,	PUNCT	PUNCT	_	35	punct	_	_
 37	αυτό	αυτός	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	39	obj	_	_
 38	δεν	δεν	PART	PART	_	39	advmod	_	_
 39	καταλαβαίνουν	καταλαβαίνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	_
@@ -2533,7 +2533,7 @@
 8	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	_
 9	στρέιτ	στρέιτ	NOUN	NOUN	_	7	nsubj	_	SpaceAfter=No|OrigLang=en
 10	,	,	PUNCT	PUNCT	_	12	punct	_	_
-11	ή	ή	CCONJ	CCONJ	_	15	cc	_	_
+11	ή	ή	CCONJ	CCONJ	_	12	cc	_	_
 12	αλλιώς	αλλιώς	ADV	ADV	_	15	advmod	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_
 14	δεν	δεν	PART	PART	_	15	advmod	_	_
@@ -2580,7 +2580,7 @@
 6	τους	ο	DET	DET	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	_
 7	στρέιτ	στρέιτ	NOUN	NOUN	_	4	obl	_	SpaceAfter=No|OrigLang=en
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
-9	και	και	CCONJ	CCONJ	_	16	cc	_	_
+9	και	και	CCONJ	CCONJ	_	11	cc	_	_
 10	ως	ως	ADV	ADV	_	11	case	_	_
 11	ανθρώπους	άνθρωπος	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	16	obl	_	_
 12	γενικά	γενικά	ADV	ADV	_	16	advmod	_	SpaceAfter=No

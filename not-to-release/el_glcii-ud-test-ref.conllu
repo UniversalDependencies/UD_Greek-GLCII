@@ -1080,7 +1080,7 @@
 4	και	και	CCONJ	CCONJ	_	6	cc	_	_
 5	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	λογική	λογική	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	SpaceAfter=No
-7	,	,	PUNCT	PUNCT	_	13	punct	_	_
+7	,	,	PUNCT	PUNCT	_	11	punct	_	_
 8	και	και	CCONJ	CCONJ	_	11	cc	_	_
 9	σε	σε	ADP	ADP	_	10	case	_	_
 10	αυτά	αυτός	PRON	PRON	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Dem	13	obl	_	_
@@ -6796,7 +6796,7 @@
 13	κοινωνία	κοινωνία	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
 14	των	ο	DET	DET	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	15	det	_	_
 15	χωρών	χώρα	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
-16	που	που	PRON	PRON	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Rel	17	advmod	_	_
+16	που	που	PRON	PRON	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Rel	17	obl	_	_
 17	ήρθαν	έρχομαι	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	15	acl:relcl	_	SpaceAfter=No
 18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
