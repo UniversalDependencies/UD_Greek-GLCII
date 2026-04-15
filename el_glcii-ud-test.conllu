@@ -220,7 +220,7 @@
 8	,	,	PUNCT	PUNCT	_	7	punct	_	_
 9	το	το	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	πρασινο	πρασινο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
-11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
 12	οξυγονο	οξυγονο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 13	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	cop	_	IntendedLemma=ειμαι
 14	και	και	CCONJ	CCONJ	_	16	cc	_	_
@@ -301,7 +301,7 @@
 # text = εαν ο καθε ενασ να φυτεψει ενα δεντρο θα ηταν  πολυ ωραια και για την πολη μας και για την υγεια των πολητων μας
 1	εαν	αν	SCONJ	SCONJ	_	6	mark	_	_
 2	ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
-3	καθε	καθε	DET	DET	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	4	det	_	_
+3	καθε	καθε	DET	DET	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Ind	6	nsubj	_	_
 4	ενασ	ενας	NUM	NUM	_	3	compound	_	_
 5	να	να	AUX	AUX	_	6	aux	_	_
 6	φυτεψει	φυτευω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	advcl	_	_
@@ -470,7 +470,7 @@
 # text = Ο τροπος που η χωρα μας προλήψε αυτη την κατασταση ειναι αφηνοντας πολλες επειχηρησης να δουλευουν κανονικα, αλλα με μετρα ασφαλειας
 1	Ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	_
 2	τροπος	τροπος	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
-3	που	που	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	7	advmod	_	_
+3	που	που	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	7	obl	_	_
 4	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	χωρα	χωρα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 6	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	_
@@ -828,7 +828,7 @@
 28-29	στν	_	_	_	_	_	_	_	_
 28	σ	σε	ADP	ADP	_	30	case	_	_
 29	τν	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing	30	det	_	_
-30	αλλα	άλλος	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	27	obl	_	CorrectForm=άλλη
+30	αλλα	άλλος	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	27	nmod	_	CorrectForm=άλλη
 31	χωρίς	χωρίς	ADP	ADP	_	33	mark	_	_
 32	να	να	AUX	AUX	_	33	aux	_	_
 33	τεθεί	θέτω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|VerbForm=Fin|Voice=Pass	25	advcl	_	_
@@ -1876,7 +1876,7 @@
 7	επιλεξω	επιλεγω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 8	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
 9	πανεπιστήμιο	πανεπιστήμιο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
-10	που	που	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rel	12	advmod	_	_
+10	που	που	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rel	12	obl	_	_
 11	θα	θα	AUX	AUX	_	12	aux	_	_
 12	πάω	πηγαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	9	acl:relcl	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	7	punct	_	_
@@ -2606,7 +2606,7 @@
 7	πως	πως	SCONJ	SCONJ	_	11	mark	_	_
 8	εμείς	εγώ	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 9	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	γκέι	γκέι	NOUN	NOUN	_	11	nsubj	_	OrigLang=en
+10	γκέι	γκέι	NOUN	NOUN	_	8	appos	_	OrigLang=en
 11	έχουμε	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 12	δικαίωμα	δικαίωμα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 13	να	να	AUX	AUX	_	14	aux	_	_
@@ -3250,7 +3250,7 @@
 5	χρόνια	χρόνος	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	13	obl	_	_
 6	σε	σε	ADP	ADP	_	8	case	_	_
 7	όλες	όλος	DET	DET	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot	8	det	_	_
-8	χώρες	χώρα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	_
+8	χώρες	χώρα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	11	nmod	_	_
 9	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 10	γκέι	γκέι	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Plur	11	amod	_	_
 11	ζευγάρια	ζευγάρι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
@@ -3959,7 +3959,7 @@
 4	απόλαβη	απόλαβη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
 5	μόνο	μόνο	ADV	ADV	_	4	advmod	_	_
 6	και	και	CCONJ	CCONJ	_	11	cc	_	_
-7	όχι	όχι	PART	PART	_	9	advmod	_	SpaceAfter=No
+7	όχι	όχι	PART	PART	_	11	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	11	punct	_	_
 9	επείδη	επείδη	SCONJ	SCONJ	_	11	mark	_	_
 10	δεν	δεν	PART	PART	_	11	advmod	_	_
@@ -4021,7 +4021,7 @@
 3	έμεις	έγω	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
 4	ως	ως	ADP	ADP	_	6	case	_	_
 5	τα	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	_
-6	άτομα	άτομο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	3	obl	_	_
+6	άτομα	άτομο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	3	nmod	_	_
 7	χρεισημοποιούμε	χρεισημοποιώ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	πάρα	πάρα	ADV	ADV	_	9	advmod	_	_
 9	πολλά	πολύς	DET	DET	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	11	det	_	_
@@ -4222,7 +4222,7 @@
 23	ΕΙΝΑΙ	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	cop	_	IntendedLemma=ΕΙΝΑΙ
 24	ΤΟ	Ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
 25	<	<	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
-26	SKINNY	SKINNY	ADJ	ADJ	Foreign=Yes	14	conj	_	Lang=en|SpaceAfter=No
+26	SKINNY	SKINNY	ADJ	ADJ	_	14	conj	_	OrigLang=en|SpaceAfter=No
 27	>	>	PUNCT	PUNCT	_	26	punct	_	CorrectSpaceAfter=No
 28	,	,	PUNCT	PUNCT	_	31	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 29	ΔΗΛΑΔΗ	ΔΗΛΑΔΗ	ADV	ADV	_	31	advmod	_	_
@@ -4973,7 +4973,7 @@
 3	ρώτησαν	ρωτώ	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
 4	πριν	πριν	ADV	ADV	_	3	advmod	_	_
 5	από	από	ADP	ADP	_	7	case	_	_
-6	ένα	ένας	NUM	NUM	Case=Acc|Gender=Masc|Number=Sing|NumType=Card|PronType=Art	7	nummod	_	_
+6	ένα	ένας	NUM	NUM	Case=Acc|Gender=Masc|Number=Sing|NumType=Card	7	nummod	_	_
 7	χρόνο	χρόνος	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9	εγώ	εγώ	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
@@ -5067,7 +5067,7 @@
 13	,	,	PUNCT	PUNCT	_	15	punct	_	_
 14	είμαι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	15	cop	_	_
 15	ελεύτερος	ελεύτερος	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
-16	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No
+16	.	.	PUNCT	PUNCT	_	7	punct	_	SpaceAfter=No
 17	”	”	PUNCT	PUNCT	_	7	punct	_	_
 
 # sent_id = dev-23.8
