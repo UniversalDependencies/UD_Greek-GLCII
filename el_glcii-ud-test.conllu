@@ -4470,7 +4470,7 @@
 15	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	obl	_	_
 16	αυτό	αυτός	DET	DET	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	18	det	_	_
 17	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	18	det	_	_
-18	γεγονός	γεγονός	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	2	expl	_	_
+18	γεγονός	γεγονός	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	2	reparandum	_	_
 19	δεν	δεν	PART	PART	_	20	advmod	_	_
 20	πρέπει	πρέπει	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 21	να	να	AUX	AUX	_	23	aux	_	_
