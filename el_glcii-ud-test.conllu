@@ -8587,7 +8587,7 @@
 7	:	:	PUNCT	PUNCT	_	9	punct	_	_
 8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 9	FOLLOW	follow	VERB	VERB	Foreign=Yes	0	root	_	Lang=en
-10	YOUR	your	PRON	PRON	Case=Gen|Foreign=Yes|Person=2|Poss=Yes|PronType=Prs	11	nmod:poss	_	Lang=en
+10	YOUR	your	PRON	PRON	Foreign=Yes	11	nmod:poss	_	Lang=en
 11	DREAMS	dreams	NOUN	NOUN	Foreign=Yes	9	obj	_	Lang=en|SpaceAfter=No
 12	!	!	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 13	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
@@ -8692,7 +8692,7 @@
 8	:	:	PUNCT	PUNCT	_	10	punct	_	_
 9	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 10	FOLLOW	follow	VERB	VERB	Foreign=Yes	1	parataxis	_	Lang=en
-11	YOUR	your	PRON	PRON	Case=Gen|Foreign=Yes|Person=2|Poss=Yes|PronType=Prs	12	nmod:poss	_	Lang=en
+11	YOUR	your	PRON	PRON	Foreign=Yes	12	nmod:poss	_	Lang=en
 12	DREAMS	dreams	NOUN	NOUN	Foreign=Yes	10	obj	_	Lang=en|SpaceAfter=No
 13	!	!	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 14	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
@@ -10243,7 +10243,7 @@
 
 # sent_id = dev-41.31.1
 # text = Das ist sehr sehr kalt.”
-1	Das	das	DET	DET	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem,Rel	5	nsubj	_	Lang=de
+1	Das	das	DET	DET	Foreign=Yes	5	nsubj	_	Lang=de
 2	ist	sein	AUX	AUX	Foreign=Yes	5	cop	_	Lang=de
 3	sehr	sehr	ADV	ADV	Foreign=Yes	4	advmod	_	Lang=de
 4	sehr	sehr	ADV	ADV	Foreign=Yes	5	advmod	_	Lang=de
