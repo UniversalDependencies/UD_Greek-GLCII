@@ -10387,7 +10387,7 @@
 # text = »Das ist sehr sehr kalt.» είπε και χαμογέλασε.
 1	»	»	PUNCT	PUNCT	_	6	punct	_	Lang=de|SpaceAfter=No
 2	Das	das	DET	DET	Foreign=Yes	6	nsubj	_	Lang=de
-3	ist	ist	AUX	AUX	Foreign=Yes	6	cop	_	Lang=de
+3	ist	sein	AUX	AUX	Foreign=Yes	6	cop	_	Lang=de
 4	sehr	sehr	ADV	ADV	Foreign=Yes	5	advmod	_	Lang=de
 5	sehr	sehr	ADV	ADV	Foreign=Yes	6	advmod	_	Lang=de
 6	kalt	kalt	ADJ	ADJ	Foreign=Yes	9	ccomp	_	Lang=de|SpaceAfter=No
