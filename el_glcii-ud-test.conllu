@@ -4200,7 +4200,7 @@
 1	ΑΥΤΟ	αυτο	DET	DET	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	3	det	_	_
 2	ΤΟ	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 3	ΦΑΙΝΟΜΕΝΟ	φαινομενο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
-4	ΕΙΝΑΙ	ειναι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
+4	ΕΙΝΑΙ	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	IntendedLemma=ειναι
 5	ΠΙΟ	πιο	ADV	ADV	_	6	advmod	_	_
 6	ΕΝΤΟΝΟ	εντονος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 7	ΤΕΛΕΥΤΑΙΑ	τελευταια	ADV	ADV	_	6	advmod	_	_
@@ -4219,7 +4219,7 @@
 20	ΠΛΑΣΑΡΟΥΝ	πλασαρω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	18	xcomp	_	_
 21	ΟΙ	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	22	det	_	_
 22	ΕΤΑΙΡΕΙΕΣ	εταιρεια	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	18	nsubj	_	_
-23	ΕΙΝΑΙ	ειναι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	cop	_	_
+23	ΕΙΝΑΙ	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	26	cop	_	IntendedLemma=ειναι
 24	ΤΟ	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	_
 25	<	<	PUNCT	PUNCT	_	26	punct	_	SpaceAfter=No
 26	SKINNY	skinny	ADJ	ADJ	_	14	conj	_	OrigLang=en|SpaceAfter=No
@@ -4364,7 +4364,7 @@
 1	ΤΟ	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
 2	ΧΕΙΡΟΤΕΡΟ	κακο	ADJ	ADJ	Case=Nom|Degree=Cmp|Gender=Neut|Number=Sing	3	amod	_	_
 3	ΣΕΝΑΡΙΟ	σεναριο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
-4	ΕΙΝΑΙ	ειναι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	_
+4	ΕΙΝΑΙ	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	IntendedLemma=ειναι
 5	ΟΜΩΣ	ομως	CCONJ	CCONJ	_	3	cc	_	_
 6	Ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	_
 7	ΘΑΝΑΤΟΣ	θανατος	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
