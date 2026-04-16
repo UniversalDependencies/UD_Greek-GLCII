@@ -8661,7 +8661,7 @@
 26	στέλνω	στέλνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
 27	αυτό	αυτός	DET	DET	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	29	det	_	_
 28	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	29	det	_	_
-29	E-MAIL	E-MAIL	NOUN	NOUN	Foreign=Yes	26	obj	_	Lang=en|SpaceAfter=No
+29	E-MAIL	e-mail	NOUN	NOUN	Foreign=Yes	26	obj	_	Lang=en|SpaceAfter=No
 30	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
 # sent_id = dev-34.6
@@ -8722,9 +8722,9 @@
 6	λέει	λέω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	SpaceAfter=No
 7	:	:	PUNCT	PUNCT	_	6	punct	_	_
 8	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
-9	FOLLOW	FOLLOW	VERB	VERB	Foreign=Yes	0	root	_	Lang=en
-10	YOUR	YOUR	PRON	PRON	Foreign=Yes	11	nmod:poss	_	Lang=en
-11	DREAMS	DREAMS	NOUN	NOUN	Foreign=Yes	9	obj	_	Lang=en|SpaceAfter=No
+9	FOLLOW	follow	VERB	VERB	Foreign=Yes	0	root	_	Lang=en
+10	YOUR	your	PRON	PRON	Foreign=Yes	11	nmod:poss	_	Lang=en
+11	DREAMS	dreams	NOUN	NOUN	Foreign=Yes	9	obj	_	Lang=en|SpaceAfter=No
 12	!	!	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 13	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	9	punct	_	_
@@ -8826,9 +8826,9 @@
 7	θέλεις	θέλω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpaceAfter=No
 8	:	:	PUNCT	PUNCT	_	10	punct	_	_
 9	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
-10	FOLLOW	FOLLOW	VERB	VERB	Foreign=Yes	1	parataxis	_	Lang=en
-11	YOUR	YOUR	PRON	PRON	Foreign=Yes	12	nmod:poss	_	Lang=en
-12	DREAMS	DREAMS	NOUN	NOUN	Foreign=Yes	10	obj	_	Lang=en|SpaceAfter=No
+10	FOLLOW	follow	VERB	VERB	Foreign=Yes	1	parataxis	_	Lang=en
+11	YOUR	your	PRON	PRON	Foreign=Yes	12	nmod:poss	_	Lang=en
+12	DREAMS	dreams	NOUN	NOUN	Foreign=Yes	10	obj	_	Lang=en|SpaceAfter=No
 13	!	!	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 14	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 15	...	...	PUNCT	PUNCT	_	18	punct	_	_
@@ -10664,7 +10664,7 @@
 6	και	και	CCONJ	CCONJ	_	9	cc	_	_
 7	από	από	ADP	ADP	_	9	case	_	_
 8	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
-9	ΑΠΘ	ΑΠΘ	NOUN	NOUN	Abbr=Yes	5	conj	_	SpaceAfter=No
+9	ΑΠΘ	απθ	NOUN	NOUN	Abbr=Yes	5	conj	_	SpaceAfter=No
 10	!	!	PUNCT	PUNCT	_	5	punct	_	_
 
 # sent_id = dev-43.6
@@ -10712,7 +10712,7 @@
 20-21	στο	_	_	_	_	_	_	_	_
 20	σ	σε	ADP	ADP	_	22	case	_	_
 21	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing	22	det	_	_
-22	ΣΝΕΓ	ΣΝΕΓ	NOUN	NOUN	Abbr=Yes	19	nmod	_	SpaceAfter=No
+22	ΣΝΕΓ	σνεγ	NOUN	NOUN	Abbr=Yes	19	nmod	_	SpaceAfter=No
 23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = dev-43.9
@@ -10764,7 +10764,7 @@
 7	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing	8	det	_	_
 8	Πανεπιστήμιο	πανεπιστήμιο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 9	του	ο	DET	DET	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
-10	ΑΠΘ	ΑΠΘ	NOUN	NOUN	Abbr=Yes	8	nmod	_	SpaceAfter=No
+10	ΑΠΘ	απθ	NOUN	NOUN	Abbr=Yes	8	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	PUNCT	_	14	punct	_	_
 12	αλλά	αλλά	CCONJ	CCONJ	_	14	cc	_	_
 13	δεν	δεν	PART	PART	_	14	advmod	_	_
