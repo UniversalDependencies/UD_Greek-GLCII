@@ -195,7 +195,7 @@
 
 # sent_id = dev-2.2
 # text = Ειναι πολυ σιμαντικο να μην κοψουμε δεντρα,αντιθετος να φυτεψουμε.
-1	Ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	_
+1	Ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	IntendedLemma=ειμαι
 2	πολυ	πολυ	ADV	ADV	_	3	advmod	_	_
 3	σιμαντικο	σιμαντικος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 4	να	να	AUX	AUX	_	6	aux	_	_
@@ -222,7 +222,7 @@
 10	πρασινο	πρασινο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
 11	παραγουν	παραγω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
 12	οξυγονο	οξυγονο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
-13	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	cop	_	_
+13	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	16	cop	_	IntendedLemma=ειμαι
 14	και	και	CCONJ	CCONJ	_	16	cc	_	_
 15	πολυ	πολυ	ADV	ADV	_	16	advmod	_	_
 16	ομορφο	ομορφος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	CorrectSpaceAfter=No
@@ -238,7 +238,7 @@
 
 # sent_id = dev-2.4.1
 # text = ειναι πολυ καλο για το περιβαλλον μας.
-1	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	_
+1	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	IntendedLemma=ειμαι
 2	πολυ	πολυ	ADV	ADV	_	3	advmod	_	_
 3	καλο	καλος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 4	για	για	ADP	ADP	_	6	case	_	_
@@ -259,7 +259,7 @@
 
 # sent_id = dev-2.5
 # text = ειναι πολλα τα θετικα.
-1	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
+1	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	IntendedLemma=ειμαι
 2	πολλα	πολυς	DET	DET	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	0	root	_	_
 3	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
 4	θετικα	θετικος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	SpaceAfter=No
@@ -308,7 +308,7 @@
 7	ενα	ενας	DET	DET	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	δεντρο	δεντρο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
 9	θα	θα	AUX	AUX	_	12	aux	_	_
-10	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	12	cop	_	_
+10	ηταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	12	cop	_	IntendedLemma=ειμαι
 11	πολυ	πολυ	ADV	ADV	_	12	advmod	_	_
 12	ωραια	ωραια	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 13	και	και	CCONJ	CCONJ	_	16	cc	_	_
@@ -343,14 +343,14 @@
 14	πολλα	πολυς	DET	DET	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	15	det	_	_
 15	ατομα	ατομο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	6	parataxis	_	_
 16	που	που	PRON	PRON	Case=Nom|Gender=Neut|Number=Plur|Person=3|PronType=Rel	18	nsubj	_	_
-17	εχουν	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+17	εχουν	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	IntendedLemma=εχω
 18	χαση	χανω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	15	acl:relcl	_	_
 19	τη	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	_
 20	ζωή	ζωή	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	SpaceAfter=No
 21	,	,	PUNCT	PUNCT	_	25	punct	_	_
 22	πολλες	πολυς	DET	DET	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	23	det	_	_
 23	επειχηρησης	επειχηρηση	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	25	nsubj	_	_
-24	ειχουν	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	_
+24	ειχουν	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	25	aux	_	IntendedLemma=εχω
 25	κλειση	κλεινω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	6	parataxis	_	_
 26	λογο	λόγω	ADP	ADP	Typo=Yes	27	case	_	CorrectForm=λόγω
 27	καταστασεων	κατασταση	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Plur	25	obl	_	_
@@ -478,7 +478,7 @@
 8	αυτη	αυτος	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Dem	10	det	_	_
 9	την	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	κατασταση	κατασταση	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
-11	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	cop	_	_
+11	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	cop	_	IntendedLemma=ειμαι
 12	αφηνοντας	αφηνω	VERB	VERB	Aspect=Imp|VerbForm=Conv|Voice=Act	0	root	_	_
 13	πολλες	πολυς	DET	DET	Case=Acc|Gender=Fem|Number=Plur	14	det	_	_
 14	επειχηρησης	επειχηρηση	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	12	obj	_	_
@@ -495,7 +495,7 @@
 # text = Τα κρουσματα εχουν αυξηθη αλλα οχι σε μεγαλω επειπεδω οπως ηταν στην αρχη της πανδημιας
 1	Τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
 2	κρουσματα	κρουσμα	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
-3	εχουν	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	εχουν	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	IntendedLemma=εχω
 4	αυξηθη	αυξανω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Pass	0	root	_	_
 5	αλλα	αλλα	CCONJ	CCONJ	_	9	cc	_	_
 6	οχι	οχι	PART	PART	_	9	advmod	_	_
@@ -503,7 +503,7 @@
 8	μεγαλω	μεγαλως	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	_
 9	επειπεδω	επειπεδω	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 10	οπως	οπως	ADV	ADV	_	9	advmod	_	_
-11	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	cop	_	_
+11	ηταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	9	cop	_	IntendedLemma=ειμαι
 12-13	στην	_	_	_	_	_	_	_	_
 12	σ	σε	ADP	ADP	_	14	case	_	_
 13	την	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing	14	det	_	_
@@ -515,7 +515,7 @@
 # text = Μαλλον δεν ηταν μια καλη κοινηση τα να αφησουμε τα πραγματα ανοιχτα αλλα προσοπικα πιστευω πως ηταν μια αποφαση η οποια βοηθησε στο να ανοιγωνται νεες δουλιες και επισης δεν χρεοκόπησε τη χώρα μας
 1	Μαλλον	μαλλον	ADV	ADV	_	6	advmod	_	_
 2	δεν	δεν	PART	PART	_	6	advmod	_	_
-3	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	6	cop	_	_
+3	ηταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	6	cop	_	IntendedLemma=ειμαι
 4	μια	ενας	DET	DET	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	καλη	καλος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
 6	κοινηση	κοινηση	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -529,7 +529,7 @@
 14	προσοπικα	προσοπικα	ADV	ADV	_	15	advmod	_	_
 15	πιστευω	πιστευω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 16	πως	πως	SCONJ	SCONJ	_	19	mark	_	_
-17	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	19	cop	_	_
+17	ηταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	19	cop	_	IntendedLemma=ειμαι
 18	μια	ενας	DET	DET	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	αποφαση	αποφαση	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	15	ccomp	_	_
 20	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -1046,10 +1046,10 @@
 17	ζωη	ζωη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
 18	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod	_	_
 19	και	και	CCONJ	CCONJ	_	21	cc	_	_
-20	εχουν	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	_
+20	εχουν	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	aux	_	IntendedLemma=εχω
 21	δειξει	δειχνω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	1	conj	_	_
 22	ότι	ότι	SCONJ	SCONJ	_	24	mark	_	_
-23	εχουμε	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	_
+23	εχουμε	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	IntendedLemma=εχω
 24	βρει	βρισκω	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Act	21	ccomp	_	_
 25	λυσεισ	λυση	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
 26	για	για	ADP	ADP	_	28	case	_	_
@@ -1189,7 +1189,7 @@
 # text = Η εθουσα ηταν ιδη γεματη.
 1	Η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	εθουσα	εθουσα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
-3	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	cop	_	_
+3	ηταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	5	cop	_	IntendedLemma=ειμαι
 4	ιδη	ιδη	ADV	ADV	_	5	advmod	_	_
 5	γεματη	γεματος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
@@ -1202,7 +1202,7 @@
 3	τις	ο	DET	DET	Case=Acc|Gender=Fem|Number=Plur	4	det	_	_
 4	θεσις	θεσις	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	_
 5	που	που	PRON	PRON	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Rel	7	nsubj	_	_
-6	ητανε	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	cop	_	_
+6	ητανε	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	cop	_	IntendedLemma=ειμαι
 7	αδιες	αδιες	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	4	acl:relcl	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 9	γιατι	γιατι	SCONJ	SCONJ	_	13	mark	_	_
@@ -1250,7 +1250,7 @@
 31	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	32	det	_	_
 32	υπολιποι	υπολιπος	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Plur	15	conj	_	_
 33	που	που	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|Person=3|PronType=Rel	35	nsubj	_	_
-34	εχουν	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	_
+34	εχουν	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	IntendedLemma=εχω
 35	εργαστει	εργαζομαι	VERB	VERB	Aspect=Perf|VerbForm=Inf|Voice=Pass	32	acl:relcl	_	_
 36	για	για	ADP	ADP	_	39	case	_	_
 37	αυτην	αυτος	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Dem	39	det	_	_
@@ -1277,7 +1277,7 @@
 6	συζιγος	συζιγος	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
 7	μου	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	nmod	_	_
 8	οποιος	οποιος	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Rel	10	nsubj	_	_
-9	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	cop	_	_
+9	ηταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	10	cop	_	IntendedLemma=ειμαι
 10	μαζι	μαζι	ADV	ADV	_	6	acl:relcl	_	_
 11	μου	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	obl	_	SpaceAfter=No
 12	,	,	PUNCT	PUNCT	_	13	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
@@ -1320,7 +1320,7 @@
 # sent_id = dev-6.11
 # text = Ολοι ητανε ευχαριστημενοι.
 1	Ολοι	ολος	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Tot	3	nsubj	_	_
-2	ητανε	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+2	ητανε	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	IntendedLemma=ειμαι
 3	ευχαριστημενοι	ευχαριστω	VERB	VERB	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
@@ -1883,7 +1883,7 @@
 
 # sent_id = dev-9.9
 # text = Ειναι μια σημαντικη αποφαση και πρεπει να δω ολα τα θεματα.
-1	Ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	cop	_	_
+1	Ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	cop	_	IntendedLemma=ειμαι
 2	μια	ένας	DET	DET	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 3	σημαντικη	σημαντικος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	4	amod	_	_
 4	αποφαση	αποφαση	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
@@ -1900,7 +1900,7 @@
 # text = Αυτο θα ειναι το μελλον μου οποτε θα το εξετασω πολυ πριν επιλεξω πανεπιστημιο.
 1	Αυτο	αυτος	PRON	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	5	nsubj	_	_
 2	θα	θα	AUX	AUX	_	5	aux	_	_
-3	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	_
+3	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	IntendedLemma=ειμαι
 4	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	μελλον	μελλον	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 6	μου	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod	_	_
@@ -2748,7 +2748,7 @@
 
 # sent_id = dev-13.5
 # text = Ειμαι ενδοθσιασμενοσ να δο η οικογενια μου, γιατι μενουν στο Καλιφορνια, κε εγο μενω στο Νεα Υορκη.
-1	Ειμαι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
+1	Ειμαι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	IntendedLemma=ειμαι
 2	ενδοθσιασμενοσ	ενδοθσιαζω	VERB	VERB	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 3	να	να	AUX	AUX	_	4	aux	_	_
 4	δο	βλεπω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	acl	_	_
@@ -4172,7 +4172,7 @@
 4	ΚΑΙ	και	CCONJ	CCONJ	_	6	cc	_	_
 5	Η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 6	ΟΡΘΟΡΕΞΙΑ	ορθορεξια	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	3	conj	_	_
-7	ΕΙΝΑΙ	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	_
+7	ΕΙΝΑΙ	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	IntendedLemma=ειμαι
 8	ΑΠΟ	απο	ADP	ADP	_	11	case	_	_
 9	ΤΑ	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	11	det	_	_
 10	ΦΛΕΓΟΝΤΑ	φλεγων	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Plur	11	amod	_	_
@@ -4209,7 +4209,7 @@
 10	ΠΡΟΤΥΠΑ	προτυπο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
 11	ΤΩΝ	ο	DET	DET	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
 12	ΣΩΜΑΤΟΤΥΠΩΝ	σωματοτυπος	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
-13	ΕΧΕΙ	εχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+13	ΕΧΕΙ	έχω	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	IntendedLemma=εχω
 14	ΑΛΛΑΞΕΙ	αλλαζω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
 15	ΚΑΙ	και	CCONJ	CCONJ	_	26	cc	_	_
 16	ΑΥΤΟ	αυτο	PRON	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	26	nsubj	_	_
@@ -4288,7 +4288,7 @@
 18	ΕΠΕΙΔΗ	επειδη	SCONJ	SCONJ	_	19	mark	_	_
 19	ΘΕΩΡΟΥΝ	θεωρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 20	ΟΤΙ	οτι	SCONJ	SCONJ	_	22	mark	_	_
-21	ΕΙΝΑΙ	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	cop	_	_
+21	ΕΙΝΑΙ	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	cop	_	IntendedLemma=ειμαι
 22	ΠΑΧΥΣΑΡΚΟΙ	παχυσαρκος	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Plur	19	ccomp	_	SpaceAfter=No
 23	,	,	PUNCT	PUNCT	_	25	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 24	ΔΗΛΑΔΗ	δηλαδη	ADV	ADV	_	25	advmod	_	_
@@ -7841,7 +7841,7 @@
 7	της	ο	DET	DET	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
 8	Κἰνας	Κἰνα	PROPN	PROPN	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	11	punct	_	_
-10	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	_
+10	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	IntendedLemma=ειμαι
 11	χὠρα	χὠρα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 12	της	ο	DET	DET	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	_
 13	αναστολικἠς	αναστολικός	ADJ	ADJ	Case=Gen|Gender=Fem|Number=Sing	14	amod	_	_
@@ -7875,7 +7875,7 @@
 1	Η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
 2	έκτασἠ	έκταση	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
 3	της	μου	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	nmod	_	_
-4	εἰναι	εἰμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	cop	_	_
+4	εἰναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	7	cop	_	IntendedLemma=εἰμαι
 5	9,596,960	9,596,960	NUM	NUM	NumType=Card	7	nummod	_	_
 6	τετραγωνικά	τετραγωνικός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Plur	7	amod	_	_
 7	χιλιόμετρα	χιλιόμετρο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	0	root	_	SpaceAfter=No
@@ -7899,7 +7899,7 @@
 # text = Πρωτεύουσἀ της ειναι το Πεκίνο, και το πιο σημαντικό λιμἀνι ειναι Σαγκἀη.
 1	Πρωτεύουσἀ	πρωτεύουσα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	NewPar=Yes
 2	της	μου	PRON	PRON	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	nmod	_	_
-3	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	cop	_	_
+3	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	cop	_	IntendedLemma=ειμαι
 4	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
 5	Πεκίνο	Πεκίνο	PROPN	PROPN	Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	11	punct	_	_
@@ -7908,7 +7908,7 @@
 9	πιο	πιο	ADV	ADV	_	10	advmod	_	_
 10	σημαντικό	σημαντικός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	11	amod	_	_
 11	λιμἀνι	λιμἀνι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	1	conj	_	_
-12	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	_
+12	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	11	cop	_	IntendedLemma=ειμαι
 13	Σαγκἀη	Σαγκἀη	PROPN	PROPN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -7917,7 +7917,7 @@
 1	Και	και	CCONJ	CCONJ	_	3	cc	_	_
 2	μεγἀλες	μεγἀλος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
 3	πὀλεις	πὀλη	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
-4	εἰναι	εἰμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	_
+4	εἰναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	IntendedLemma=εἰμαι
 5	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 6	Τιαντσἰν	Τιαντσἰν	PROPN	PROPN	_	3	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	PUNCT	_	9	punct	_	_
@@ -7995,7 +7995,7 @@
 
 # sent_id = dev-32.8.1
 # text = Εἰναι χώρα ορεινή.
-1	Εἰναι	εἰμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	NewPar=Yes
+1	Εἰναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	NewPar=Yes|IntendedLemma=εἰμαι
 2	χώρα	χώρα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	ορεινή	ορεινός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	SpaceAfter=No
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -8014,7 +8014,7 @@
 3	ψιλὀ	ψιλὀς	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 4	απὀ	απὀ	ADP	ADP	_	5	case	_	_
 5	αυτἀ	αυτός	PRON	PRON	Case=Acc|Gender=Neut|Number=Plur|Person=3|PronType=Dem	3	obl	_	_
-6	εἰναι	εἰμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	_
+6	εἰναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	IntendedLemma=εἰμαι
 7	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
 8	ὀρος	ὀρος	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
 9	Ἐβερεστ	Ἐβερεστ	PROPN	PROPN	_	8	flat	_	SpaceAfter=No|OrigLang=en
@@ -8024,7 +8024,7 @@
 # text = Επἰσης, εἰναι το πιο ψηλὀ στον κὀσμο.
 1	Επἰσης	επἰσης	ADV	ADV	_	6	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	6	punct	_	_
-3	εἰναι	εἰμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
+3	εἰναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	IntendedLemma=εἰμαι
 4	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
 5	πιο	πιο	ADV	ADV	_	6	advmod	_	_
 6	ψηλὀ	ψηλός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
@@ -8097,7 +8097,7 @@
 # sent_id = dev-32.13
 # text = Μετά εἰναι πολὐ ξηρὀ δυτικἀ, και υγρὀ ανατολικἀ.
 1	Μετά	μετά	ADV	ADV	_	4	advmod	_	_
-2	εἰναι	εἰμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	cop	_	_
+2	εἰναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	cop	_	IntendedLemma=εἰμαι
 3	πολὐ	πολύ	ADV	ADV	_	4	advmod	_	_
 4	ξηρὀ	ξηρὀς	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 5	δυτικἀ	δυτικἀ	ADV	ADV	_	4	advmod	_	SpaceAfter=No
@@ -9557,7 +9557,7 @@
 # text = Ο καιρος ηταν καλος, ειχε ζεστη και ηλιο, και δεν εβρεξε καθολου.
 1	Ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	NewPar=Yes
 2	καιρος	καιρος	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
-3	ηταν	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	cop	_	_
+3	ηταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	4	cop	_	IntendedLemma=ειμαι
 4	καλος	καλος	ADJ	ADJ	Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	ειχε	εχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
@@ -9654,7 +9654,7 @@
 13	αυτη	αυτος	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Dem	15	det	_	_
 14	τη	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	λιμνη	λιμνη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	_
-16	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	cop	_	_
+16	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	cop	_	IntendedLemma=ειμαι
 17	πολυ	πολυ	ADV	ADV	_	18	advmod	_	_
 18	κρυο	κρυος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	7	advcl	_	SpaceAfter=No
 19	.	.	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
@@ -10838,7 +10838,7 @@
 2	λένε	λέω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Άννα	Άννα	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	2	xcomp	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	6	punct	_	_
-5	ιμαι	ιμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
+5	ιμαι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	IntendedLemma=ιμαι
 6	30	30	NUM	NUM	NumType=Card	2	parataxis	_	SpaceAfter=No
 7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -10849,7 +10849,7 @@
 3	κόρι	κόρι	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	SpaceAfter=No
 4	,	,	PUNCT	PUNCT	_	8	punct	_	_
 5	αυτι	αυτι	PRON	PRON	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
-6	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	_
+6	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	8	cop	_	IntendedLemma=ειμαι
 7	7	7	NUM	NUM	NumType=Card	8	nummod	_	_
 8	μινας	μινας	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	1	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -10862,7 +10862,7 @@
 4	λένε	λέω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	Ελίνα	Ελίνα	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	4	xcomp	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	10	punct	_	_
-7	ειναι	ειμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	cop	_	_
+7	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	cop	_	IntendedLemma=ειμαι
 8	"	"	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
 9	απο	απο	ADP	ADP	_	10	case	_	_
 10	Ελλάδα	Ελλάδα	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	4	parataxis	_	SpaceAfter=No
@@ -10916,7 +10916,7 @@
 
 # sent_id = dev-44.7
 # text = Είμαη μητέρα - αυτό είναι το πολή σημαντικό στιν ζωή μού τόρα.
-1	Είμαη	είμαη	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
+1	Είμαη	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	IntendedLemma=είμαη
 2	μητέρα	μητέρα	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
 3	-	-	PUNCT	PUNCT	_	8	punct	_	_
 4	αυτό	αυτός	PRON	PRON	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Dem	8	nsubj	_	_
