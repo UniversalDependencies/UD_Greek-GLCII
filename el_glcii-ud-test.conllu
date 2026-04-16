@@ -480,7 +480,7 @@
 10	κατασταση	κατασταση	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
 11	ειναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	12	cop	_	IntendedLemma=ειμαι
 12	αφηνοντας	αφηνω	VERB	VERB	Aspect=Imp|VerbForm=Conv|Voice=Act	0	root	_	_
-13	πολλες	πολυς	DET	DET	Case=Acc|Gender=Fem|Number=Plur	14	det	_	_
+13	πολλες	πολυς	DET	DET	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	14	det	_	_
 14	επειχηρησης	επειχηρηση	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	12	obj	_	_
 15	να	να	AUX	AUX	_	16	aux	_	_
 16	δουλευουν	δουλευω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	xcomp	_	_
@@ -674,7 +674,7 @@
 15	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
 16	πιρούνι	πιρούνι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
 17	τότε	τότε	ADV	ADV	_	22	advmod	_	_
-18	΄καποίος	κάποιος	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+18	΄καποίος	κάποιος	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	22	nsubj	_	_
 19	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	22	cop	_	_
 20-21	στο	_	_	_	_	_	_	_	_
 20	σ	σε	ADP	ADP	_	22	case	_	_
@@ -954,7 +954,7 @@
 28	ότι	ότι	SCONJ	SCONJ	_	30	mark	_	_
 29	θα	θα	AUX	AUX	_	30	aux	_	_
 30	ζήσετε	ζω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	27	ccomp	_	_
-31	πολλα	πολυς	DET	DET	Case=Acc|Gender=Neut|Number=Plur	32	det	_	_
+31	πολλα	πολυς	DET	DET	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	32	det	_	_
 32	χρόνια	χρόνος	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	30	obl	_	SpaceAfter=No
 33	.	.	PUNCT	PUNCT	_	3	punct	_	NewPar=Yes
 
@@ -1149,7 +1149,7 @@
 27	πιο	πιο	ADV	ADV	_	28	advmod	_	_
 28	γρηγορα	γρηγορα	ADV	ADV	_	26	advmod	_	_
 29	χωρις	χωρις	ADP	ADP	_	31	case	_	_
-30	πολλη	πολυς	DET	DET	Case=Acc|Gender=Fem|Number=Sing	31	det	_	_
+30	πολλη	πολυς	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	31	det	_	_
 31	ταλεπωρια	ταλεπωρια	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	26	obl	_	SpaceAfter=No
 32	.	.	PUNCT	PUNCT	_	9	punct	_	NewPar=Yes
 
@@ -2258,7 +2258,7 @@
 8	πάλι	πάλι	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 10	ντυθήκαμε	ντύνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	_
-11	πώς	πώς	ADV	ADV	_	10	advmod	_	_
+11	πώς	πώς	ADV	ADV	ExtPos=ADV	10	advmod	_	_
 12	και	και	CCONJ	CCONJ	_	11	fixed	_	_
 13	πώς	πώς	ADV	ADV	_	11	fixed	_	_
 14	και	και	CCONJ	CCONJ	_	15	cc	_	_
@@ -2415,7 +2415,7 @@
 19	των	ο	DET	DET	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
 20	γκέι	γκέι	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No|OrigLang=en
 21	,	,	PUNCT	PUNCT	_	26	punct	_	_
-22	αν	αν	SCONJ	SCONJ	_	26	mark	_	_
+22	αν	αν	SCONJ	SCONJ	ExtPos=SCONJ	26	mark	_	_
 23	και	και	CCONJ	CCONJ	_	22	fixed	_	_
 24	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	γκέι	γκέι	NOUN	NOUN	_	26	nsubj:pass	_	OrigLang=en
@@ -4319,9 +4319,9 @@
 8	ΕΑΝ	εαν	SCONJ	SCONJ	_	10	mark	_	_
 9	ΔΕΝ	δεν	PART	PART	_	10	advmod	_	_
 10	ΛΗΦΘΟΥΝ	λαμβανω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Pass	5	advcl	_	_
-11	ΥΠ"	υπο	ADP	ADP	_	10	obl	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+11	ΥΠ"	υπο	ADP	ADP	ExtPos=ADV	10	obl	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 12	ΟΨΙΝ	οψη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	11	fixed	_	_
-13	ΛΙΑΝ	λιαν	ADV	ADV	_	10	advmod	_	_
+13	ΛΙΑΝ	λιαν	ADV	ADV	ExtPos=ADV	10	advmod	_	_
 14	ΣΥΝΤΟΜΩΣ	συντομως	NOUN	NOUN	_	13	fixed	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
 
@@ -5570,7 +5570,7 @@
 6	θέλουν	θέλω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	csubj:pass	_	_
 7	να	να	AUX	AUX	_	8	aux	_	_
 8	διδάσκουν	διδάσκω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	xcomp	_	SpaceAfter=No
-9	,	,	PUNCT	PUNCT	_	13	punct	_	_
+9	,	,	PUNCT	PUNCT	_	6	punct	_	_
 10	ότι	ότι	SCONJ	SCONJ	_	13	mark	_	_
 11	δεν	δεν	PART	PART	_	13	advmod	_	_
 12	τους	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|PronType=Prs	13	iobj	_	_
@@ -5597,7 +5597,7 @@
 33	διδάσκουν	διδάσκω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	_
 34	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
 35	καθηγητές	καθηγητής	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	SpaceAfter=No
-36	,	,	PUNCT	PUNCT	_	39	punct	_	_
+36	,	,	PUNCT	PUNCT	_	6	punct	_	_
 37	και	και	CCONJ	CCONJ	_	39	cc	_	_
 38	ότι	ότι	SCONJ	SCONJ	_	39	mark	_	_
 39	προσφέρουν	προσφέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
@@ -5608,7 +5608,7 @@
 
 # sent_id = dev-24.14
 # text = Αν και συμφωνώ με ορισμένους από τους ισχυρισμούς, πιστεύω ότι μπορώ να κάνω τη διαφορά στις Ζωές των κάποιων μαθητών και μου είναι πιο σημαντικό από να γράφω πολλά βιβλία που δεν διαβάζονται από πολλούς ανθρώπους.
-1	Αν	αν	SCONJ	SCONJ	_	3	mark	_	_
+1	Αν	αν	SCONJ	SCONJ	ExtPos=SCONJ	3	mark	_	_
 2	και	και	CCONJ	CCONJ	_	1	fixed	_	_
 3	συμφωνώ	συμφωνώ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 4	με	με	ADP	ADP	_	5	case	_	_
@@ -8507,7 +8507,7 @@
 8	μιλάμε	μιλώ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	για	για	ADP	ADP	_	10	case	_	_
 10	αυτό	αυτός	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	8	obl	_	_
-11	διά	διά	ADP	ADP	_	8	obl	_	_
+11	διά	διά	ADP	ADP	ExtPos=ADV	8	obl	_	_
 12	ζώσης	ζώση	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	11	fixed	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	16	punct	_	_
 14	αλλά	αλλά	CCONJ	CCONJ	_	16	cc	_	_
@@ -9703,7 +9703,7 @@
 
 # sent_id = dev-39.14.2
 # text = Αν και ήθελα να πάω όχι στην Αλβανός αλλά στην Ελλάδα.
-1	Αν	αν	SCONJ	SCONJ	_	3	mark	_	_
+1	Αν	αν	SCONJ	SCONJ	ExtPos=SCONJ	3	mark	_	_
 2	και	και	CCONJ	CCONJ	_	1	fixed	_	_
 3	ήθελα	θέλω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	να	να	AUX	AUX	_	5	aux	_	_
@@ -10686,7 +10686,7 @@
 
 # sent_id = dev-43.14
 # text = Τελως πάντων, οπως το ζητάτε,πρόχειρα)
-1	Τελως	τελως	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	8	discourse	_	_
+1	Τελως	τελως	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing|ExtPos=ADV	8	discourse	_	_
 2	πάντων	πας	ADJ	ADJ	Case=Gen|Gender=Neut|Number=Plur	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	6	punct	_	_
 4	οπως	οπως	ADV	ADV	_	6	advmod	_	_
@@ -11569,7 +11569,7 @@
 5	πάμε	πηγαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 6	για	για	ADP	ADP	_	7	case	_	_
 7	βολτες	βολτα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
-8	γύρω	γύρω	ADV	ADV	_	7	advmod	_	_
+8	γύρω	γύρω	ADV	ADV	ExtPos=ADV	7	advmod	_	_
 9	γύρω	γύρω	ADV	ADV	_	8	fixed	_	_
 10-11	στο	_	_	_	_	_	_	_	_
 10	σ	σε	ADP	ADP	_	12	case	_	_
@@ -11962,7 +11962,7 @@
 2	σ	σε	ADP	ADP	_	4	case	_	_
 3	τη	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Ελλάδα	Ελλάδα	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
-5	εδώ	εδώ	ADV	ADV	_	8	case	_	_
+5	εδώ	εδώ	ADV	ADV	ExtPos=ADV	8	case	_	_
 6	και	και	CCONJ	CCONJ	_	5	fixed	_	_
 7	4	4	NUM	NUM	NumType=Card	8	nummod	_	_
 8	χρόνια	χρόνος	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	1	obl	_	_
