@@ -5591,20 +5591,19 @@
 27	δεν	δεν	PART	PART	_	28	advmod	_	_
 28	ενδιαφέρονται	ενδιαφέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	24	acl:relcl	_	_
 29	για	για	ADP	ADP	_	30	case	_	_
-30	ό	ό	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel|Typo=Yes	33	obj	_	SpaceAfter=No
-31	,	_	PUNCT	PUNCT	_	30	punct	_	CorrectSpaceAfter=No
-32	τι	_	X	X	_	31	goeswith	_	_
-33	διδάσκουν	διδάσκω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	_
-34	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	35	det	_	_
-35	καθηγητές	καθηγητής	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	33	nsubj	_	SpaceAfter=No
-36	,	,	PUNCT	PUNCT	_	6	punct	_	_
-37	και	και	CCONJ	CCONJ	_	39	cc	_	_
-38	ότι	ότι	SCONJ	SCONJ	_	39	mark	_	_
-39	προσφέρουν	προσφέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
-40	να	να	AUX	AUX	_	41	aux	_	_
-41	κάνουν	κάνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	xcomp	_	_
-42	ερεύνα	ερεύνα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	41	obj	_	SpaceAfter=No
-43	.	.	PUNCT	PUNCT	_	1	punct	_	_
+30	ό,	ό,τι	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|PronType=Rel|Typo=Yes	32	obj	_	CorrectSpaceAfter=No
+31	τι	_	X	X	_	30	goeswith	_	_
+32	διδάσκουν	διδάσκω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	advcl	_	_
+33	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	34	det	_	_
+34	καθηγητές	καθηγητής	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Plur	32	nsubj	_	SpaceAfter=No
+35	,	,	PUNCT	PUNCT	_	6	punct	_	_
+36	και	και	CCONJ	CCONJ	_	38	cc	_	_
+37	ότι	ότι	SCONJ	SCONJ	_	38	mark	_	_
+38	προσφέρουν	προσφέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+39	να	να	AUX	AUX	_	40	aux	_	_
+40	κάνουν	κάνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	xcomp	_	_
+41	ερεύνα	ερεύνα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	40	obj	_	SpaceAfter=No
+42	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = dev-24.14
 # text = Αν και συμφωνώ με ορισμένους από τους ισχυρισμούς, πιστεύω ότι μπορώ να κάνω τη διαφορά στις Ζωές των κάποιων μαθητών και μου είναι πιο σημαντικό από να γράφω πολλά βιβλία που δεν διαβάζονται από πολλούς ανθρώπους.
