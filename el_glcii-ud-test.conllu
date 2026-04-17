@@ -11988,3 +11988,208 @@
 14	Τούμπας	Τούμπα	PROPN	PROPN	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
+# sent_id = dev-50.3
+# text = Το σπίτι που νοικιάζω ήταν πολύ χάλια όταν το πήρα, πολύ βρομίκο.
+1	Το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	σπίτι	σπίτι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+3	που	που	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rel	4	obj	_	_
+4	νοικιάζω	νοικιάζω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+5	ήταν	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	cop	_	_
+6	πολύ	πολύ	ADV	ADV	_	7	advmod	_	_
+7	χάλια	χάλια	ADV	ADV	_	0	root	_	_
+8	όταν	όταν	SCONJ	SCONJ	_	10	mark	_	_
+9	το	εγώ	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
+10	πήρα	παίρνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	SpaceAfter=No
+11	,	,	PUNCT	PUNCT	_	13	punct	_	_
+12	πολύ	πολύ	ADV	ADV	_	13	advmod	_	_
+13	βρομίκο	βρομίκος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	7	appos	_	SpaceAfter=No
+14	.	.	PUNCT	PUNCT	_	7	punct	_	_
+
+# sent_id = dev-50.4
+# text = Μόλις μπήκα στο σπίτι ξεκηνούσα το καθάρισμα.
+1	Μόλις	μόλις	SCONJ	SCONJ	_	2	mark	_	_
+2	μπήκα	μπαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	_
+3-4	στο	_	_	_	_	_	_	_	_
+3	σ	σε	ADP	ADP	_	5	case	_	_
+4	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	σπίτι	σπίτι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+6	ξεκηνούσα	ξεκηνώ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	_
+8	καθάρισμα	καθάρισμα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+9	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = dev-50.5
+# text = έβαψα το σπίτι και έφερα κενούρια έπιπλα.
+1	έβαψα	βάφω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	σπίτι	σπίτι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+4	και	και	CCONJ	CCONJ	_	5	cc	_	_
+5	έφερα	φέρω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	κενούρια	κενούρια	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Plur	7	amod	_	_
+7	έπιπλα	έπιπλο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+
+# sent_id = dev-50.6
+# text = Μένω με τη γυνέκα και έχουμε αγοράκι.
+1	Μένω	μένω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	με	με	ADP	ADP	_	4	case	_	_
+3	τη	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+4	γυνέκα	γυνέκα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+5	και	και	CCONJ	CCONJ	_	6	cc	_	_
+6	έχουμε	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+7	αγοράκι	αγοράκι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = dev-50.7
+# text = Το σπίτι έχει ένα σαλόνι, δύο ύπνοδομάτια, δύο μπαλκόνια.
+1	Το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	σπίτι	σπίτι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	έχει	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	ένα	ένας	DET	DET	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	σαλόνι	σαλόνι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	SpaceAfter=No
+6	,	,	PUNCT	PUNCT	_	8	punct	_	_
+7	δύο	δύο	NUM	NUM	Case=Acc|Gender=Neut|Number=Plur|NumType=Card	8	nummod	_	_
+8	ύπνοδομάτια	ύπνοδομάτιο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	5	parataxis	_	SpaceAfter=No
+9	,	,	PUNCT	PUNCT	_	11	punct	_	_
+10	δύο	δύο	NUM	NUM	NumType=Card	11	nummod	_	_
+11	μπαλκόνια	μπαλκόνι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	5	parataxis	_	SpaceAfter=No
+12	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = dev-50.8
+# text = το Σανλόνι δεν είναι πολύ μεγάλο αλλά είναι αρκετά για μένα, έχω μέσα μια μεγάλη τηλεώραση, μια μικρή βιβλιοθήκη και δύο καναπέδες.
+1	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	Σανλόνι	Σανλόνι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+3	δεν	δεν	PART	PART	_	6	advmod	_	_
+4	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
+5	πολύ	πολύ	ADV	ADV	_	6	advmod	_	_
+6	μεγάλο	μεγάλος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+7	αλλά	αλλά	CCONJ	CCONJ	_	9	cc	_	_
+8	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	9	cop	_	_
+9	αρκετά	αρκετά	ADV	ADV	_	6	conj	_	_
+10	για	για	ADP	ADP	_	11	case	_	_
+11	μένα	εγώ	PRON	PRON	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	SpaceAfter=No
+12	,	,	PUNCT	PUNCT	_	13	punct	_	_
+13	έχω	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+14	μέσα	μέσα	ADV	ADV	_	13	advmod	_	_
+15	μια	ένας	DET	DET	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_
+16	μεγάλη	μεγάλος	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	17	amod	_	_
+17	τηλεώραση	τηλεώραση	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	SpaceAfter=No
+18	,	,	PUNCT	PUNCT	_	21	punct	_	_
+19	μια	ένας	DET	DET	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
+20	μικρή	μικρός	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	21	amod	_	_
+21	βιβλιοθήκη	βιβλιοθήκη	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
+22	και	και	CCONJ	CCONJ	_	24	cc	_	_
+23	δύο	δύο	NUM	NUM	NumType=Card	24	nummod	_	_
+24	καναπέδες	καναπές	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	17	conj	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = dev-50.9
+# text = το πρώτο ύπνοδομάτιο είναι του μωρού έχει μεγάλη ντουλάμπα, κρεβατάκι και τα παιχνίδια του μωρού, στους τύχους έχουμε πολύ ωραία αυτοκόλητα.
+1	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	πρώτο	πρώτος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	3	amod	_	_
+3	ύπνοδομάτιο	ύπνοδομάτιο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	cop	_	_
+5	του	ο	DET	DET	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	6	det	_	_
+6	μωρού	μωρό	NOUN	NOUN	Case=Gen|Gender=Neut|Number=Sing	0	root	_	_
+7	έχει	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+8	μεγάλη	μεγάλος	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	9	amod	_	_
+9	ντουλάμπα	ντουλάμπα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	7	obj	_	SpaceAfter=No
+10	,	,	PUNCT	PUNCT	_	11	punct	_	_
+11	κρεβατάκι	κρεβάτι	NOUN	NOUN	Case=Acc|Degree=Dim|Gender=Neut|Number=Sing	9	conj	_	_
+12	και	και	CCONJ	CCONJ	_	14	cc	_	_
+13	τα	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	14	det	_	_
+14	παιχνίδια	παιχνίδι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	9	conj	_	_
+15	του	ο	DET	DET	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	_
+16	μωρού	μωρό	NOUN	NOUN	Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	PUNCT	_	21	punct	_	_
+18-19	στους	_	_	_	_	_	_	_	_
+18	σ	σε	ADP	ADP	_	20	case	_	_
+19	τους	ο	DET	DET	Case=Acc|Gender=Masc|Number=Plur|PronType=Art	20	det	_	_
+20	τύχους	τύχος	NOUN	NOUN	Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
+21	έχουμε	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+22	πολύ	πολύ	ADV	ADV	_	23	advmod	_	_
+23	ωραία	ωραίος	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Plur	24	amod	_	_
+24	αυτοκόλητα	αυτοκόλητο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	21	obj	_	SpaceAfter=No
+25	.	.	PUNCT	PUNCT	_	6	punct	_	_
+
+# sent_id = dev-50.10
+# text = το τριτό δωμάτιο είναι δικό μας.
+1	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+2	τριτό	τριτός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing|NumType=Ord	3	amod	_	_
+3	δωμάτιο	δωμάτιο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	cop	_	_
+5	δικό	δικός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	μας	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	obl	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	5	punct	_	_
+
+# sent_id = dev-50.11
+# text = Έχουμε μεγαλή κουζίνα με μεγάλο μπαλκόνι.
+1	Έχουμε	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	μεγαλή	μεγαλός	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Sing	3	amod	_	_
+3	κουζίνα	κουζίνα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
+4	με	με	ADP	ADP	_	6	case	_	_
+5	μεγάλο	μεγάλος	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Sing	6	amod	_	_
+6	μπαλκόνι	μπαλκόνι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	PUNCT	_	1	punct	_	_
+
+# sent_id = dev-50.12
+# text = Το μπάνιο είναι μεγάλο αλλά χριάζεται ανακένηση.
+1	Το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	μπάνιο	μπάνιο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	cop	_	_
+4	μεγάλο	μεγάλος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+5	αλλά	αλλά	CCONJ	CCONJ	_	6	cc	_	_
+6	χριάζεται	χριάζομαι	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+7	ανακένηση	ανακένηση	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	SpaceAfter=No
+8	.	.	PUNCT	PUNCT	_	4	punct	_	_
+
+# sent_id = dev-50.13
+# text = Μας αρέσει πολύ το σπίτι και μας άρεσει πιο πλύ η περιοχή είναι πολύ ήσηχη και εχούμε από όλα τα μαγαζιά σας να είμαστε στο κέντρο.
+1	Μας	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	2	iobj	_	_
+2	αρέσει	αρέσω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	πολύ	πολύ	ADV	ADV	_	2	advmod	_	_
+4	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	_
+5	σπίτι	σπίτι	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+6	και	και	CCONJ	CCONJ	_	8	cc	_	_
+7	μας	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|PronType=Prs	8	iobj	_	_
+8	άρεσει	άρεσω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	πιο	πιο	ADV	ADV	_	10	advmod	_	_
+10	πλύ	πλύ	ADV	ADV	_	8	advmod	_	_
+11	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+12	περιοχή	περιοχή	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+13	είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	15	cop	_	_
+14	πολύ	πολύ	ADV	ADV	_	15	advmod	_	_
+15	ήσηχη	ήσηχος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	_
+16	και	και	CCONJ	CCONJ	_	17	cc	_	_
+17	εχούμε	εχώ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+18	από	από	ADP	ADP	_	21	case	_	_
+19	όλα	όλος	DET	DET	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot	21	det	_	_
+20	τα	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	21	det	_	_
+21	μαγαζιά	μαγαζί	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	17	obl	_	_
+22	σας	σαν	ADV	ADV	Typo=Yes	27	mark	_	CorrectForm=σαν
+23	να	να	AUX	AUX	_	27	aux	_	_
+24	είμαστε	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	27	cop	_	_
+25-26	στο	_	_	_	_	_	_	_	_
+25	σ	σε	ADP	ADP	_	27	case	_	_
+26	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	27	det	_	_
+27	κέντρο	κέντρο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	17	advcl	_	SpaceAfter=No
+28	.	.	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No|CorrectSpaceAfter=Yes
+
+# sent_id = dev-50.14.1
+# text = Είμαστε πολύ ευτηχυσμένοι και χαρούμενο.
+1	Είμαστε	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Pass	3	cop	_	_
+2	πολύ	πολύ	ADV	ADV	_	3	advmod	_	_
+3	ευτηχυσμένοι	ευτηχώ	VERB	VERB	Aspect=Perf|Case=Nom|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+4	και	και	CCONJ	CCONJ	_	5	cc	_	_
+5	χαρούμενο	χαίρομαι	VERB	VERB	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|VerbForm=Part|Voice=Pass	3	conj	_	SpaceAfter=No
+6	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
+# sent_id = dev-50.14.2
+# text = στο σπίτι μας.
+1-2	στο	_	_	_	_	_	_	_	_
+1	σ	σε	ADP	ADP	_	3	case	_	_
+2	το	ο	DET	DET	Case=Acc|Gender=Neut|Number=Sing|PronType=Art	3	det	_	_
+3	σπίτι	σπίτι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+4	μας	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	SpaceAfter=No
+5	.	.	PUNCT	PUNCT	_	3	punct	_	_
+
