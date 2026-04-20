@@ -209,7 +209,7 @@
 9	αντιθέτως	αντιθέτως	ADV	ADV	_	11	cc	_	_
 10	να	να	AUX	AUX	_	11	aux	_	_
 11	φυτεύουμε	φυτεύω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
-12	περισσότερα	πολύς	ADJ	ADJ	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur|PronType=Ind	7	amod	_	SpaceAfter=No
+12	περισσότερα	πολύς	DET	DET	Case=Acc|Degree=Cmp|Gender=Neut|Number=Plur|PronType=Ind	7	amod	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = dev-2.3
@@ -812,7 +812,7 @@
 12	σε	σε	ADP	ADP	_	13	case	_	_
 13	προλήψεις	προλήψπτω	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	11	obl	_	SpaceAfter=No
 14	,	,	PUNCT	PUNCT	_	21	punct	_	_
-15	που	που	PRON	PRON	_	19	nmod	_	_
+15	που	που	PRON	PRON	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Rel	19	nmod	_	_
 16	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	19	det	_	_
 17	μορφωτικό	μορφωτικός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	19	amod	_	_
 18	τους	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod	_	_
@@ -1249,7 +1249,7 @@
 3	τις	ο	DET	DET	Case=Acc|Gender=Fem|Number=Plur|PronType=Art	4	det	_	_
 4	θέσεις	θέση	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	1	obl	_	_
 5	που	που	PRON	PRON	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Rel	7	nsubj	_	_
-6	ήτανε	είμανι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	cop	_	_
+6	ήτανε	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Pass	7	cop	_	_
 7	άδειες	άδεια	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	4	acl:relcl	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	13	punct	_	_
 9	γιατί	γιατί	SCONJ	SCONJ	_	13	mark	_	_
@@ -2486,7 +2486,7 @@
 19	των	ο	DET	DET	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	20	det	_	_
 20	γκέι	γκέι	NOUN	NOUN	_	18	nmod	_	SpaceAfter=No|OrigLang=en
 21	,	,	PUNCT	PUNCT	_	26	punct	_	_
-22	αν	αν	SCONJ	SCONJ	_	26	mark	_	_
+22	αν	αν	SCONJ	SCONJ	ExtPos=SCONJ	26	mark	_	_
 23	και	και	CCONJ	CCONJ	_	22	fixed	_	_
 24	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	_
 25	γκέι	γκέι	NOUN	NOUN	_	26	nsubj	_	OrigLang=en
@@ -3336,7 +3336,7 @@
 15	.	.	PUNCT	PUNCT	_	9	punct	_	_
 
 # sent_id = dev-16.2
-# text = Δυστυχώς, το πρόβλημα αυτό δεν είναι η μοναδική σενέπεια της κλιματικής αλλαγής.
+# text = Δυστυχώς, το πρόβλημα αυτό δεν είναι η μοναδική συνέπεια της κλιματικής αλλαγής.
 1	Δυστυχώς	δυστυχώς	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	10	punct	_	_
 3	το	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -3424,7 +3424,7 @@
 40	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = dev-16.5
-# text = Άλλες σημαντικές συνέπειες τις κληματικής αλλαγής είναι οι φυσικές καταστροφές που προκαλούνται από τα ακραία καιρικά φαινόμενα, όπως οι καταιγίδες, οι πλημμύρες, οι τυφώνες και η ξηρασία.
+# text = Άλλες σημαντικές συνέπειες της κλιματικής αλλαγής είναι οι φυσικές καταστροφές που προκαλούνται από τα ακραία καιρικά φαινόμενα, όπως οι καταιγίδες, οι πλημμύρες, οι τυφώνες και η ξηρασία.
 1	Άλλες	άλλος	DET	DET	Case=Nom|Gender=Fem|Number=Plur|Person=3|PronType=Ind	3	det	_	_
 2	σημαντικές	σημαντικός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
 3	συνέπειες	συνέπεια	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
@@ -3458,7 +3458,7 @@
 31	.	.	PUNCT	PUNCT	_	3	punct	_	_
 
 # sent_id = dev-16.6
-# text = Η κληματική αλλαγή αναγκάζει τους ανθρώπους να εγκαταλείψουν τα σπίτια τους, αναζητώντας μια αξιοπρεπή ζωή.
+# text = Η κλιματική αλλαγή αναγκάζει τους ανθρώπους να εγκαταλείψουν τα σπίτια τους, αναζητώντας μια αξιοπρεπή ζωή.
 1	Η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 2	κλιματική	κλιματικός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	3	amod	_	_
 3	αλλαγή	αλλαγή	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
@@ -3478,7 +3478,7 @@
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = dev-16.7
-# text = Όμως, χωρίς αμφιβολία, εκείνοι που έχουν συμβάλει περισσότερο στις κληματικές αλλαγές δεν είναι εκείνοι που πληρώνουν το τίμημα.
+# text = Όμως, χωρίς αμφιβολία, εκείνοι που έχουν συμβάλει περισσότερο στις κλιματικές αλλαγές δεν είναι εκείνοι που πληρώνουν το τίμημα.
 1	Όμως	όμως	CCONJ	CCONJ	_	17	cc	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
 3	χωρίς	χωρίς	ADP	ADP	_	4	case	_	_
@@ -3540,7 +3540,7 @@
 32	.	.	PUNCT	PUNCT	_	15	punct	_	_
 
 # sent_id = dev-16.9
-# text = Να σταματήσουμε να μολύνουμε το περιβάλλον, να πάψουμε να πετάμε τα πλαστικά και τα σκουπίδια, και να χρησιμοποιούμε ανανεώσιμες πηγές ενέργιας.
+# text = Να σταματήσουμε να μολύνουμε το περιβάλλον, να πάψουμε να πετάμε τα πλαστικά και τα σκουπίδια, και να χρησιμοποιούμε ανανεώσιμες πηγές ενέργειας.
 1	Να	να	AUX	AUX	_	2	aux	_	_
 2	σταματήσουμε	σταματώ	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 3	να	να	AUX	AUX	_	4	aux	_	_
@@ -3769,7 +3769,7 @@
 20	.	.	PUNCT	PUNCT	_	4	punct	_	_
 
 # sent_id = dev-17.12
-# text = Κάτω από το σπίτι έχω μια καφετέρια και ένα ζαχαροπλαστείο, το οποίο έχει πολύ νόστιμα γλυκά, αλλά δυστυχώς δεν μπορώ να φάω γλύκα, γιατί πήρα τρία κιλά και πρέπει να τα χάσω.
+# text = Κάτω από το σπίτι έχω μια καφετέρια και ένα ζαχαροπλαστείο, το οποίο έχει πολύ νόστιμα γλυκά, αλλά δυστυχώς δεν μπορώ να φάω γλυκά, γιατί πήρα τρία κιλά και πρέπει να τα χάσω.
 1	Κάτω	κάτω	ADV	ADV	_	5	advmod	_	_
 2	από	από	ADP	ADP	_	4	case	_	_
 3	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
@@ -4058,7 +4058,7 @@
 18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = dev-19.4
-# text = Οι μεγάλες εταιρίες τάκτικα ρίχνουν σκουπίδια και, ακόμα χειρότερα, προκαλούν καταστροφικές επιπτώσεις, όταν τα πλοία τους, που μεταφέρουν την ρίπους ή άλλες χημικές ουσίες, καταλήγουν ως ναυάγια, εκμηδενίζοντας χιλιάδες είδη θαλασσιών ζωών.
+# text = Οι μεγάλες εταιρίες τακτικά ρίχνουν σκουπίδια και, ακόμα χειρότερα, προκαλούν καταστροφικές επιπτώσεις, όταν τα πλοία τους, που μεταφέρουν τους ρύπους ή άλλες χημικές ουσίες, καταλήγουν ως ναυάγια, εκμηδενίζοντας χιλιάδες είδη θαλάσσιων ζώων.
 1	Οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	3	det	_	_
 2	μεγάλες	μεγάλος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	3	amod	_	_
 3	εταιρίες	εταιρία	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
@@ -4139,7 +4139,7 @@
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = dev-19.6.2
-# text = Για παράδειγμα, μπορούμε να διαμαρτυρηθούμε, να επικοινωνήσουμε με τους βουλευτές, ώστε να αλλάξουν το δίκαιο για να τιμωρήσουν τις εταιρίες και τα άτομα για τα σκουπίδια και τη ρύπανση των θαλασσών, να υποστηρίζουμε τις περιβαλλοντικές οργανώσεις ή να γίνουμε μέλος τους.
+# text = Για παράδειγμα, μπορούμε να διαμαρτυρηθούμε, να επικοινωνήσουμε με τους βουλευτές, ώστε να αλλάξουν το δίκαιο για να τιμωρήσουν τις εταιρείες και τα άτομα για τα σκουπίδια και τη ρύπανση των θαλασσών, να υποστηρίζουμε τις περιβαλλοντικές οργανώσεις ή να γίνουμε μέλος τους.
 1	Για	για	ADP	ADP	_	2	case	_	_
 2	παράδειγμα	παράδειγμα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	4	punct	_	_
@@ -4368,7 +4368,7 @@
 22	.	.	PUNCT	PUNCT	_	12	punct	_	_
 
 # sent_id = dev-20.5
-# text = Επίσης, σημαντικό ρόλο παίζει και ο ψυχολογικός παράγοντας, καθώς άνθρωποι φτάνουν σε αυτό το σημείο επειδή θεωρούν ότι είναι παχύσαρκοι, δηλαδή βλέπουν στον καθέφτη κάτι τελείως διαφορετικό από την πραγματική τους εικόνα.
+# text = Επίσης, σημαντικό ρόλο παίζει και ο ψυχολογικός παράγοντας, καθώς άνθρωποι φτάνουν σε αυτό το σημείο επειδή θεωρούν ότι είναι παχύσαρκοι, δηλαδή βλέπουν στον καθρέφτη κάτι τελείως διαφορετικό από την πραγματική τους εικόνα.
 1	Επίσης	επίσης	ADV	ADV	_	5	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	5	punct	_	_
 3	σημαντικό	σημαντικός	ADJ	ADJ	Case=Acc|Gender=Masc|Number=Sing	4	amod	_	_
@@ -4667,7 +4667,7 @@
 33	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = dev-21.7
-# text = Είναι απίστευτο και απάραδεκτο ότι η αγάπη θεωρείται ντροπή ή έγκλημα και απαγορεύεται με νόμους, ενώ αντίθετα οι νόμοι θα έπρεπε να προστατεύουν τα ανθρώπινα δικαιώματα.
+# text = Είναι απίστευτο και απαράδεκτο ότι η αγάπη θεωρείται ντροπή ή έγκλημα και απαγορεύεται με νόμους, ενώ αντίθετα οι νόμοι θα έπρεπε να προστατεύουν τα ανθρώπινα δικαιώματα.
 1	Είναι	είμαι	AUX	AUX	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	cop	_	_
 2	απίστευτο	απίστευτος	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
 3	και	και	CCONJ	CCONJ	_	4	cc	_	_
@@ -4763,7 +4763,7 @@
 22	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
 # sent_id = dev-21.10
-# text = Τα άτομα τα οποία ονειρεύονται να φτιάξουν μια οικογένεια αποκτώντας παιδί δυστυχώς δεν μπορούν να πραγματοποιήσουν το μεγαλύτερό τους όνειρο εξαιτίας των συνθήκων που τους επιβάλλουμε.
+# text = Τα άτομα τα οποία ονειρεύονται να φτιάξουν μια οικογένεια αποκτώντας παιδί δυστυχώς δεν μπορούν να πραγματοποιήσουν το μεγαλύτερό τους όνειρο εξαιτίας των συνθηκών που τους επιβάλλουμε.
 1	Τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	2	det	_	_
 2	άτομα	άτομο	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	14	nsubj	_	_
 3	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	4	det	_	_
@@ -5097,7 +5097,7 @@
 15	.	.	PUNCT	PUNCT	_	10	punct	_	_
 
 # sent_id = dev-23.3
-# text = Είχα ελπίδα να ζήσω για πολλά χρονιά και να δω πολλά πράγματα.
+# text = Είχα ελπίδα να ζήσω για πολλά χρόνια και να δω πολλά πράγματα.
 1	Είχα	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	ελπίδα	ελπίδα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	_
 3	να	να	AUX	AUX	_	4	aux	_	_
@@ -5718,7 +5718,7 @@
 
 # sent_id = dev-24.14
 # text = Αν και συμφωνώ με ορισμένους από τους ισχυρισμούς, πιστεύω ότι μπορώ να κάνω τη διαφορά στις ζωές κάποιων μαθητών και αυτό για μένα είναι πιο σημαντικό από το να γράφω πολλά βιβλία που δεν διαβάζονται από πολλούς ανθρώπους.
-1	Αν	αν	SCONJ	SCONJ	_	3	mark	_	_
+1	Αν	αν	SCONJ	SCONJ	ExtPos=SCONJ	3	mark	_	_
 2	και	και	CCONJ	CCONJ	_	1	fixed	_	_
 3	συμφωνώ	συμφωνώ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
 4	με	με	ADP	ADP	_	5	case	_	_
@@ -6842,7 +6842,7 @@
 # text = Αξιότιμε κύριε, Δεν ξέρω από που να αρχίσω την επιστολή μου.
 1	Αξιότιμε	αξιότιμος	ADJ	ADJ	Case=Voc|Gender=Masc|Number=Sing	2	amod	_	_
 2	κύριε	κύριος	NOUN	NOUN	Case=Voc|Gender=Masc|Number=Sing	5	vocative	_	SpaceAfter=No
-3	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	Δεν	δεν	PART	PART	_	5	advmod	_	NewPar=Yes
 5	ξέρω	ξέρω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	από	από	ADP	ADP	_	7	case	_	_
@@ -7822,7 +7822,7 @@
 
 # sent_id = dev-31.15
 # text = 3. Μην τρώτε συνέχεια γλυκά και κόκκινο κρέας, δεν κάνει καλό στη χοληστερίνη.
-1	3	3	NUM	NUM	NumType=Card	4	discourse	_	NewPar=Yes|SpaceAfter=Yes
+1	3	3	NUM	NUM	NumType=Card	4	discourse	_	NewPar=Yes|SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 3	Μην	μην	PART	PART	_	4	advmod	_	_
 4	τρώτε	τρώτε	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8557,7 +8557,7 @@
 5	δικαιώματα	δικαίωμα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	2	obl	_	_
 6	άλλου	άλλος	DET	DET	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Ind	7	det	_	_
 7	άτομου	άτομος	NOUN	NOUN	Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
-8	...	...	PUNCT	PUNCT	_	10	punct	_	SpaceAfter=No
+8	...	...	PUNCT	PUNCT	_	10	punct	_	_
 9	του	ο	DET	DET	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	παιδιού	παιδί	NOUN	NOUN	Case=Gen|Gender=Neut|Number=Sing	7	appos	_	SpaceAfter=No
 11	.	.	PUNCT	PUNCT	_	2	punct	_	_
@@ -8643,7 +8643,7 @@
 8	μιλάμε	μιλώ	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	για	για	ADP	ADP	_	10	case	_	_
 10	αυτό	αυτός	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Dem	8	obl	_	_
-11	διά	διά	ADP	ADP	_	8	obl	_	_
+11	διά	διά	ADP	ADP	ExtPos=ADV	8	obl	_	_
 12	ζώσης	ζώση	NOUN	NOUN	Case=Gen|Gender=Fem|Number=Sing	11	fixed	_	SpaceAfter=No
 13	,	,	PUNCT	PUNCT	_	16	punct	_	_
 14	αλλά	αλλά	CCONJ	CCONJ	_	16	cc	_	_
@@ -8849,7 +8849,7 @@
 # text = Αγαπητή Όλγα, Τι κάνεις;
 1	Αγαπητή	αγαπητός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
 2	Όλγα	Όλγα	PROPN	PROPN	Case=Voc|Gender=Fem|Number=Sing	5	vocative	_	SpaceAfter=No
-3	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	Τι	τι	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Int	5	obj	_	NewPar=Yes
 5	κάνεις	κάνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 6	;	;	PUNCT	PUNCT	_	5	punct	_	_
@@ -9848,7 +9848,7 @@
 8	ταξίδι	ταξίδι	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	5	nsubj	_	_
 9	μας	μου	PRON	PRON	Case=Gen|Gender=Masc|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	PUNCT	_	14	punct	_	_
-11	αν	αν	SCONJ	SCONJ	_	14	mark	_	_
+11	αν	αν	SCONJ	SCONJ	ExtPos=SCONJ	14	mark	_	_
 12	και	και	CCONJ	CCONJ	_	11	fixed	_	_
 13	θα	θα	AUX	AUX	_	14	aux	_	_
 14	ήθελα	θέλω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
@@ -10830,7 +10830,7 @@
 
 # sent_id = dev-43.14
 # text = Τέλος πάντων, όπως το ζητήσατε, δηλαδή πρόχειρα.
-1	Τέλος	τέλος	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Sing	9	discourse	_	_
+1	Τέλος	τέλος	NOUN	NOUN	Case=Nom|ExtPos=ADV|Gender=Neut|Number=Sing	9	discourse	_	_
 2	πάντων	πας	ADJ	ADJ	Case=Gen|Gender=Neut|Number=Plur	1	fixed	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	6	punct	_	_
 4	όπως	όπως	ADV	ADV	_	6	advmod	_	_
@@ -11193,7 +11193,7 @@
 4-5	στην	_	_	_	_	_	_	_	_
 4	σ	σε	ADP	ADP	_	6	case	_	_
 5	την	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Ελλάδα	Ελλάδα	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	SpaceAfter=Νο
+6	Ελλάδα	Ελλάδα	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
 
 # sent_id = dev-46.2
 # text = Αυτόν τον μήνα αποφάσισα να πάω στην Ελλάδα.
@@ -11596,7 +11596,7 @@
 1	Αγαπημένη	αγαπάω	VERB	VERB	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	3	advcl	_	_
 2	μου	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	Ελεανόρ	Ελεανόρ	PROPN	PROPN	_	5	vocative	_	SpaceAfter=No
-4	,	,	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
+4	,	,	PUNCT	PUNCT	_	5	punct	_	_
 5	Έχω	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	NewPar=Yes
 6	μια	ένας	DET	DET	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
 7	ιδέα	ιδέα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpaceAfter=No
@@ -12112,7 +12112,7 @@
 2	σ	σε	ADP	ADP	_	4	case	_	_
 3	την	ο	DET	DET	Case=Acc|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	Ελλάδα	Ελλάδα	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
-5	εδώ	εδώ	ADV	ADV	_	9	case	_	_
+5	εδώ	εδώ	ADV	ADV	ExtPos=ADV	9	case	_	_
 6	και	και	CCONJ	CCONJ	_	5	fixed	_	_
 7	περίπου	περίπου	ADV	ADV	_	8	advmod	_	_
 8	4	4	NUM	NUM	NumType=Card	9	nummod	_	_
