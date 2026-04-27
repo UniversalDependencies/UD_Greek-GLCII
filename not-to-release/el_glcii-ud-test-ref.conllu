@@ -1544,7 +1544,7 @@
 7	καλύτερες	καλός	ADJ	ADJ	Case=Nom|Degree=Cmp|Gender=Fem|Number=Plur	27	advcl	_	_
 8	και	και	CCONJ	CCONJ	_	16	cc	_	_
 9	τα	ο	DET	DET	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	10	det	_	_
-10	κράτη	κράτος	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+10	κράτη	κράτος	NOUN	NOUN	Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
 11	με	με	ADP	ADP	_	15	case	_	_
 12	τα	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	15	det	_	_
 13	ακραία	ακραίος	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Plur	15	amod	_	_
@@ -1783,7 +1783,7 @@
 # newdoc id = Google_form_04_12_2020_12_59_23-101
 # sent_id = dev-9.1
 # text = Μόλις τελείωσα το Λύκειο και σκέφτομαι σε ποιο πανεπιστήμιο θα πάω.
-1	Μόλις	μόλις	SCONJ	SCONJ	_	2	advmod	_	_
+1	Μόλις	μόλις	ADV	ADV	_	2	advmod	_	_
 2	τελείωσα	τελειώνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
 4	Λύκειο	λύκειο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
@@ -1942,7 +1942,7 @@
 8	επιλέξω	επιλέγω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 9	το	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	det	_	_
 10	πανεπιστήμιο	πανεπιστήμιο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
-11	που	που	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rel	13	advmod	_	_
+11	που	που	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Rel	13	obl	_	_
 12	θα	θα	AUX	AUX	_	13	aux	_	_
 13	πάω	πηγαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	10	acl:relcl	_	SpaceAfter=No
 14	.	.	PUNCT	PUNCT	_	8	punct	_	_
@@ -2330,7 +2330,7 @@
 8	πάλι	πάλι	ADV	ADV	_	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	PUNCT	_	10	punct	_	_
 10	ντυθήκαμε	ντύνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	_
-11	πώς	πώς	ADV	ADV	_	10	advmod	_	_
+11	πώς	πώς	ADV	ADV	ExtPos=ADV	10	advmod	_	_
 12	και	και	CCONJ	CCONJ	_	11	fixed	_	_
 13	πώς	πώς	ADV	ADV	_	11	fixed	_	_
 14	και	και	CCONJ	CCONJ	_	15	cc	_	_
@@ -2674,7 +2674,7 @@
 7	πως	πως	SCONJ	SCONJ	_	11	mark	_	_
 8	εμείς	εγώ	PRON	PRON	Case=Nom|Gender=Masc|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
 9	οι	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	_
-10	γκέι	γκέι	NOUN	NOUN	_	11	nsubj	_	OrigLang=en
+10	γκέι	γκέι	NOUN	NOUN	_	8	appos	_	OrigLang=en
 11	έχουμε	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 12	δικαίωμα	δικαίωμα	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
 13	να	να	AUX	AUX	_	14	aux	_	_
@@ -2930,7 +2930,7 @@
 # text = Τώρα έχουμε αρκετά πάρκα, μουσεία, ζωολογικό κήπο και άλλα.
 1	Τώρα	τώρα	ADV	ADV	_	2	advmod	_	_
 2	έχουμε	έχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	αρκετά	αρκετός	DET	DET	Case=Acc|Gender=Neut|Number=Plur	4	det	_	_
+3	αρκετά	αρκετός	DET	DET	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	4	det	_	_
 4	πάρκα	πάρκο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	SpaceAfter=No
 5	,	,	PUNCT	PUNCT	_	6	punct	_	_
 6	μουσεία	μουσείο	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	4	conj	_	SpaceAfter=No
@@ -7831,7 +7831,7 @@
 7	και	και	CCONJ	CCONJ	_	9	cc	_	_
 8	κόκκινο	κόκκινος	ADJ	ADJ	Case=Acc|Gender=Neut|Number=Sing	9	amod	_	_
 9	κρέας	κρέας	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No
-10	,	,	PUNCT	PUNCT	_	12	cc	_	_
+10	,	,	PUNCT	PUNCT	_	12	punct	_	_
 11	δεν	δεν	PART	PART	_	12	advmod	_	_
 12	κάνει	κάνω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
 13	καλό	καλό	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
@@ -7970,7 +7970,7 @@
 # sent_id = dev-32.2
 # text = Η Κίνα, η λαική δημοκρατία της Κίνας, είναι μία χώρα της ανατολικής Ασίας.
 1	Η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	NewPar=Yes
-2	Κίνα	Κίνα	PROPN	PROPN	Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	SpaceAfter=No
+2	Κίνα	Κίνα	PROPN	PROPN	Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	6	punct	_	_
 4	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
 5	λαική	λαικός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	6	amod	_	_
@@ -11022,7 +11022,7 @@
 
 # sent_id = dev-44.4
 # text = Εγώ και ο άντρας μου ήμασταν στους Δελφούς και στον Όλυμπο.
-1	Εγώ	εγώ	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+1	Εγώ	εγώ	PRON	PRON	Case=Nom|Gender=Masc|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
 2	και	και	CCONJ	CCONJ	_	4	cc	_	_
 3	ο	ο	DET	DET	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	άντρας	άντρας	NOUN	NOUN	Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
@@ -11434,7 +11434,7 @@
 
 # sent_id = dev-46.21
 # text = Μετά τη βόλτα μου, πήγαινα να δοκιμάσω την τοπική κουζίνα.
-1	Μετά	μετά	ADP	ADP	_	6	advmod	_	NewPar=Yes
+1	Μετά	μετά	ADV	ADV	_	6	advmod	_	NewPar=Yes
 2	τη	ο	DET	DET	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	_
 3	βόλτα	βόλτα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
 4	μου	εγώ	PRON	PRON	Case=Gen|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod	_	SpaceAfter=No
