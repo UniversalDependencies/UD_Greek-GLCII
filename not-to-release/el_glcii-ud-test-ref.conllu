@@ -7550,7 +7550,7 @@
 # text = Κάθισα εκεί μία άλλη βδομάδα, με φίλους, πανέμορφη θάλασσα και πάλι ωραίο ρεμπέτικο.
 1	Κάθισα	Κάθισα	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	εκεί	εκεί	ADV	ADV	_	1	advmod	_	_
-3	μία	ένας	NUM	NUM	Case=Acc|Gender=Fem|Number=Sing|NumType=Card|PronType=Art	5	nummod	_	_
+3	μία	ένας	NUM	NUM	_	5	nummod	_	_
 4	άλλη	άλλος	DET	DET	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Ind	5	det	_	_
 5	βδομάδα	βδομάδα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 6	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -8255,7 +8255,7 @@
 3	Πεκίνο	Πεκίνο	PROPN	PROPN	Case=Acc|Gender=Neut|Number=Sing	4	obl	_	_
 4	υπάρχει	υπάρχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	_
-6	Απαγορευμένη	απαγορεύω	PROPN	PROPN	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	4	nsubj	_	_
+6	Απαγορευμένη	απαγορεύω	PROPN	PROPN	Case=Acc|Gender=Fem|Number=Sing	4	nsubj	_	_
 7	Πόλη	πόλη	NOUN	NOUN	Case=Nom|Gender=Fem|Number=Sing	6	flat	_	SpaceAfter=No
 8	,	,	PUNCT	PUNCT	_	10	punct	_	_
 9	η	ο	DET	DET	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
