@@ -1,12 +1,6 @@
 # Summary
 A treebank based on version 2 of the Greek Learner Corpus (GLCII), consisting of written data produced by learners of Modern Greek.
 
-
-# Introduction
-
-...
-
-
 # Acknowledgments
 
 This annotation project is done in collaboration with Alexandros Tantos, Despoina Ourania Touriki, Konstantinos Tsiotskas and Eleni Tsourilla.
