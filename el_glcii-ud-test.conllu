@@ -1568,7 +1568,7 @@
 5	σημαντικό	σημαντικός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	1	ccomp	_	_
 6	να	να	AUX	AUX	_	7	aux	_	_
 7	μάθουν	μαθαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	5	csubj	_	_
-8	ξένες	ξένος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	9	amod	_	_
+8	ξένες	ξένος	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Plur	9	amod	_	_
 9	γλώσσες	γλώσσα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -1703,7 +1703,7 @@
 8	σημαντικό	σημαντικός	ADJ	ADJ	Case=Nom|Gender=Neut|Number=Sing	4	ccomp	_	_
 9	να	να	AUX	AUX	_	10	aux	_	_
 10	μάθουν	μαθαίνω	VERB	VERB	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	8	csubj	_	_
-11	ξένες	ξένος	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Plur	12	amod	_	_
+11	ξένες	ξένος	ADJ	ADJ	Case=Acc|Gender=Fem|Number=Plur	12	amod	_	_
 12	γλώσσες	γλώσσα	NOUN	NOUN	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	SpaceAfter=No
 13	.	.	PUNCT	PUNCT	_	2	punct	_	_
 
@@ -4007,7 +4007,7 @@
 31	τα	ο	DET	DET	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	32	det	_	_
 32	ναυάγία	ναυάγία	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	29	obl	_	_
 33	ενμιδενίζοντας	ενμιδενίζω	VERB	VERB	Aspect=Imp|VerbForm=Conv|Voice=Act	29	advcl	_	_
-34	χιλιάδες	χιλιάδα	NUM	NUM	Case=Acc|Gender=Fem|Number=Plur|NumType=Sets	35	nummod	_	_
+34	χιλιάδες	χιλιάδα	NUM	NUM	Case=Acc|Gender=Neut|Number=Plur|NumType=Sets	35	nummod	_	_
 35	είδη	είδος	NOUN	NOUN	Case=Acc|Gender=Neut|Number=Plur	33	obj	_	_
 36	των	ο	DET	DET	Case=Gen|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	38	det	_	_
 37	θαλασσιών	θαλασσιά	ADJ	ADJ	Case=Gen|Gender=Neut|Number=Plur	38	amod	_	_
@@ -8711,7 +8711,7 @@
 # newdoc id = Google_form_21_04_2021_17_20_07-256
 # sent_id = dev-35.1
 # text = Αγαπητή 'Ολγα, Τι κάνεις ;
-1	Αγαπητή	αγαπητός	ADJ	ADJ	Case=Nom|Gender=Fem|Number=Sing	2	amod	_	_
+1	Αγαπητή	αγαπητός	ADJ	ADJ	Case=Voc|Gender=Fem|Number=Sing	2	amod	_	_
 2	'Ολγα	'Ολγα	PROPN	PROPN	Case=Voc|Gender=Fem|Number=Sing	5	vocative	_	SpaceAfter=No
 3	,	,	PUNCT	PUNCT	_	5	punct	_	_
 4	Τι	τι	PRON	PRON	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Int	5	obj	_	NewPar=Yes
@@ -11334,7 +11334,7 @@
 7	(	(	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 8	υπάρχουν	υπάρχω	VERB	VERB	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
 9	)	)	PUNCT	PUNCT	Typo=Yes	8	punct	_	_
-10	πολύ	πολύς	DET	DET	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind|Typo=Yes	8	nsubj	_	CorrectSpaceAfter=No
+10	πολύ	πολύς	DET	DET	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind|Typo=Yes	8	nsubj	_	CorrectSpaceAfter=No
 11	καταστήματα	_	X	X	_	10	goeswith	_	SpaceAfter=No
 12	.	.	PUNCT	PUNCT	_	8	punct	_	_
 
