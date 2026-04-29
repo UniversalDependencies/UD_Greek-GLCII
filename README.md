@@ -5,6 +5,12 @@ A treebank based on version 2 of the Greek Learner Corpus (GLCII), consisting of
 
 This annotation project is done in collaboration with Alexandros Tantos, Despoina Ourania Touriki, Konstantinos Tsiotskas and Eleni Tsourilla.
 
+It is supported by:
+
+- the CA21167 COST action [UniDive -- Universality, diversity and idiosyncrasy in language technology](https://unidive.lisn.upsaclay.fr/)
+- the Onassis Foundation, who supports Christina Klironomou under the Scholarship Program for Greek students 2025-2026
+- the Swedish national research infrastructure Språkbanken, jointly financially supported by the Swedish Research Council (2025–2028; grant 2023-00161) and the 10 participating partner institutions.
+
 ## References
 
 ```bibtex
